@@ -1,0 +1,57 @@
+TA6 -11:00
+USE OF LITERAL INFORMAlION IN MJULTI-TARGET DATA ASSOCIATION
+I.R. Goodman
+Comuand & Control Department
+Code 421
+Naval Ocean Systems Center
+San Diego, California 92152
+Abstract
+It has been shown that literal information can
+enhance geolocation information in the multi-target
+tracking and data association problem. Thi's paper
+continues previous efforts in establishing a sys-
+tematic approach to the combination of both types
+of information using membership functions based
+upon multiple-valued logic. Filters are established
+for literal and non-numerical attributes, somewhat
+analogous to the well-known Kalman filter. The
+major result, however, is an improvement and clari-
+fication of a previous theorem establishimg asymp-
+totic forms for the posterior possibility distribu-
+tion of the unknown data association parameter as
+information granularity decreases and as inference
+rule structures become more definitive.
+1. Introduction
+The multi-target tracking and data association
+(or as comnnly called, "correlation") problem
+still remains the center of much activity and
+interest. In the past, emphasis was placed upon
+the use of only geolocation data-i.e., information
+containing reports on (usually) two- or three-
+dimensional target positions, together with possi-
+ble velocities, accelerations and related equations
+of motion parameters [1-31. More recently, an ef-
+fort has been carried out in utilizing in a more
+rigorous or systematic manner other types of infom
+ation , including various sorts of sensor systen
+parameters that could also be formally treated
+in terms of equations of motion. In addition, use
+of attribute information of radically different
+natures is also sought. This includes visual sight-
+ings, classifications, and other,often non-numerical
+and linguistic-based (or narrative),information
+which cannot be treated from traditional statistical
+analysis. This work is presented in [4-6], based
+upon, and related to,in general, previous and on-
+going researc?i in possibility and fuzzy set theory
+and its realtionships to classical probability
+theory and multi-valued logic and set theory [7-9).
+In this paper we continue to attempt to estab-
+lish a unified approach to the integration of both
+types of Information for the multi-target tracking
+and data association problem. However, since the
+results are carried out on a general level, with
+suitable modifications, applications to medical
+diagnosis, fault determination, and other problems
+involving non-sequential knowledge-based systems
+can be established [9].

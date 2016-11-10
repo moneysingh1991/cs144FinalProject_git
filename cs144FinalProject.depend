@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1478375900 source:c:\users\maninderpal\desktop\code block\cs144finalproject\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Search.h"
+	<fstream>
+
+1478379899 c:\users\maninderpal\desktop\code block\cs144finalproject\include\search.h
+	<vector>
+	<string>
+
+1478381261 source:c:\users\maninderpal\desktop\code block\cs144finalproject\src\search.cpp
+	<fstream>
+	<iostream>
+	<cstdlib>
+	"Search.h"
+	<fstream>
+	"string.h"
+
+1478372300 source:c:\users\maninderpal\desktop\code_block\cs144finalproject\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Search.h"
+	<fstream>
+
+1478521250 c:\users\maninderpal\desktop\code_block\cs144finalproject\include\search.h
+	<vector>
+	<string>
+
+1478521250 source:c:\users\maninderpal\desktop\code_block\cs144finalproject\src\search.cpp
+	<fstream>
+	<iostream>
+	<cstdlib>
+	"Search.h"
+	<fstream>
+	"string.h"
+	<sstream>
+
