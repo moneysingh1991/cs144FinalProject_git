@@ -9,6 +9,23 @@ using namespace std;
 
 
 namespace helper1 {
+    /**
+            Created by: Maninderpal Singh
+
+            function: check_word_in_vector()
+            return: vector
+
+            This function will return 1 if keyword contain in vector
+        **/
+
+        int check_word_in_vector(vector<string> vec, string keyword);
+
+    /**
+        Created by: Maninderpal Singh
+
+           convert_string_to_char_array()
+            This function will  arrayconvert string to char
+**/
     char *convert_string_to_char_array(string word);
 
 /**
@@ -16,9 +33,26 @@ namespace helper1 {
 
             check_extra_character
             This function will check each word of file with invalid character if invalid return 1 otherwise 0
-        **/
+**/
 
         int check_extra_character(string word);
+
+/**
+        Created by: Maninderpal Singh
+
+            print_vector()
+            This function will print print vector
+**/
+        void print_vector(vector<string> path);
+
+
+/**
+        Created by: Maninderpal Singh
+
+            compare_string()
+            This function will return 1 if string are same otherwise 0
+**/
+        int compare_string(string word1, string word2);
 }
 
 
@@ -99,12 +133,38 @@ class Search
         int check_file(char filename[]);
 
 
+
     protected:
 
     private:
         char keyword_Count_filename[];
 
+        /**
+            Created by: Maninderpal Singh
+
+            function: count_word_from_file()
+            return: int
+
+            This function will return count of keyword occur in given file
+        **/
+
         int count_word_from_file(char filename[], string keyword);
+
+        /**
+            Created by: Maninderpal Singh
+
+            function: produce_result_of_keyword()
+            return: vector
+
+            This function will return vector of all keyword result which user searching
+        **/
+
+        vector<string> produce_result_of_keyword(string word);
+
+
+
+
+
 };
 
 #endif // SEARCH_H

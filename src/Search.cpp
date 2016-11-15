@@ -5,6 +5,8 @@
 #include <fstream>
 #include "string.h"
 #include <sstream>
+#include <algorithm>
+
 
 
 using namespace std;
@@ -26,7 +28,14 @@ char table1_status_header[] = "is_searched filename";
 **/
 Search::Search()
 {
-    keyword_pre_process(); // this function will count all possible keyword from all file
+     keyword_pre_process(); // this function will count all possible keyword from all file
+
+    //Search::produce_result_of_keyword("hello");
+
+    helper1::print_vector(produce_result_of_keyword("and"));
+
+    // cout << strcasecmp(helper1::convert_string_to_char_array("hellooooo"), helper1::convert_string_to_char_array("Hello"));
+
 
 }
 
@@ -138,9 +147,9 @@ void Search::keyword_pre_process()
     }
     else
     {
-        insert_data_in_vector(vec,vec2);  // insert data in vector
+       // insert_data_in_vector(vec,vec2);  // insert data in vector
 
-        insert_data_in_file(table1_status_file, vec2);  // inserting vector data in file
+        //insert_data_in_file(table1_status_file, vec2);  // inserting vector data in file
         cout << "Status is good at checking table1 file and table1_status_file" << endl;
     }
 
@@ -248,19 +257,20 @@ void Search::insert_data_in_vector(vector<string> &vec, vector<string> &file_sta
     string vec_store_string;
     string keyword;
     ostringstream convert;
-
+    ifstream file;
     string result;
+    vector<string> check_word;
 
     for (i = file_vector.begin(); i != file_vector.end(); i++)
     {
-        cout << *i << endl;
+
+
+        cout << endl <<*i << " started ............."<< endl;
         vector_str = *i;
 
         //  stncpy(tab2, vector_str.c_str());
 
         tab2 = helper1::convert_string_to_char_array(vector_str);
-
-        ifstream file;
 
         if(Search::check_file(tab2) == 1)
         {
@@ -268,17 +278,30 @@ void Search::insert_data_in_vector(vector<string> &vec, vector<string> &file_sta
 
             while(file >> keyword)
             {
-                if(helper1::check_extra_character(keyword) == 0 && keyword.size() > 2) {
+
+                if(helper1::check_extra_character(keyword) == 0 && keyword.size() > 2 && helper1::check_word_in_vector(check_word, keyword) == 1)
+                {
+                     // storing result of count in file with converting int to string
                     result = static_cast<ostringstream*>( &(ostringstream() << Search::count_word_from_file(tab2, keyword)) )->str();
                     vec_store_string =  keyword + " " + result + " " +*i ;
                     vec.push_back(vec_store_string);
+                    check_word.push_back(keyword);
                 }
 
             }
 
+            file.close();
+
+           // helper1::print_vector(check_word);
+
+            check_word.clear();
+
+            cout << endl << *i << " finished ............."<< endl;
+
         }
         else
         {
+            cout << endl << tab2 << " file not found ............."<< endl;
             vec_store_string = "false " + *i;
         }
         vec_store_string = "true " + *i;
@@ -331,12 +354,12 @@ int Search::count_word_from_file(char filename[], string keyword)
 
 }
 
- /**
-        Created by: Maninderpal Singh
+/**
+       Created by: Maninderpal Singh
 
-            check_extra_character
-            This function will check each word of file with invalid character if invalid return 1 otherwise 0
-        **/
+           check_extra_character
+           This function will check each word of file with invalid character if invalid return 1 otherwise 0
+**/
 
 
 int helper1::check_extra_character(string word)
@@ -346,7 +369,7 @@ int helper1::check_extra_character(string word)
     int i = 0;
 
     char* word_check_array = new char[1024];  // for store all extra character from file for check
-   // char* word_check_array = new char[1024];
+    // char* word_check_array = new char[1024];
 
     ifstream check_char_file;
 
@@ -354,20 +377,24 @@ int helper1::check_extra_character(string word)
 
     if(!check_char_file.fail())
     {
-        while(check_char_file >> char_check_string) {
+        while(check_char_file >> char_check_string)
+        {
 
             word_check_array = helper1::convert_string_to_char_array(char_check_string);
         }
         check_char_file.close();
-    } else {
+    }
+    else
+    {
         cout << "file open failed : " << skip_word_file << endl;
     }
 
 
 
-    while(word_check_array[i] != '\0') { // read array till end
+    while(word_check_array[i] != '\0')   // read array till end
+    {
 
-         if(strchr(word.c_str(), word_check_array[i]))
+        if(strchr(word.c_str(), word_check_array[i]))
         {
             return 1;
         }
@@ -376,6 +403,58 @@ int helper1::check_extra_character(string word)
 
     return 0;
 
+}
+
+//----------------------------------------------------------------//
+
+/**
+            Created by: Maninderpal Singh
+
+            function: produce_result_of_keyword()
+            return: vector
+
+            This function will return vector of all keyword result which user searching
+**/
+
+vector<string> Search::produce_result_of_keyword(string word)
+{
+
+    vector<string> vec;
+    ifstream file;
+    string fileword;
+    string count_keyword;
+    string filename;
+
+
+    if(Search::check_file(table1) == 1)
+    {
+
+        file.open(table1);
+
+
+        while( file >> fileword && file >> count_keyword && file >> filename) // for each fileword word read from the file
+        {
+           // cout << endl << fileword << " " << count_keyword << " " << filename;
+
+            if( helper1::compare_string(word, fileword) == 1)
+            {
+
+                 //file >> count_keyword;
+                 //file >> filename;
+
+
+                vec.push_back(fileword + " " + count_keyword + " " + filename );
+            }
+
+           // file >> count_keyword;
+            //file >> filename;
+
+        }
+
+        file.close();
+
+        return vec;
+    }
 }
 
 //--------------------------------------------------------------//
@@ -391,6 +470,86 @@ char *convert_string_to_char_array(string word)
     strcpy(word_array, word.c_str());
 
     return word_array;
+}
+
+void print_vector(vector<string> path)
+{
+    int j = 0;
+    int k = 5;
+    if(path.size() > 0)
+    {
+
+        vector<string>::iterator i;
+
+        for (i = path.begin(); i != path.end(); i++)
+        {
+            cout << endl <<*i;
+
+        }
+
+    }
+    else
+    {
+        cout << endl << "vector is empty " << endl ;
+    }
+}
+
+
+/**
+        Created by: Maninderpal Singh
+
+            compare_string()
+            This function will return 1 if string are same otherwise 0
+**/
+int compare_string(string word1, string word2)
+{
+
+    string data = word1;
+    string data2 = word2;
+
+    transform(data.begin(), data.end(), data.begin(), ::tolower);
+    transform(data2.begin(), data2.end(), data2.begin(), ::tolower);
+
+    // cout << endl << "a = " << data << ", b =  " << data2 << endl;
+
+    if(data.compare(data2) == 0)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+}
+
+/**
+    Created by: Maninderpal Singh
+
+    function: check_word_in_vector()
+    return: vector
+
+    This function will return 1 if keyword contain in vector
+**/
+
+int check_word_in_vector(vector<string> path, string keyword)
+{
+    if(path.size() == 0) {
+
+        return 1;
+    }
+
+    vector<string>::iterator i;
+
+    for (i = path.begin(); i != path.end(); i++)
+    {
+        if(compare_string(*i, keyword) == 1)
+        {
+            return 0;
+        }
+
+    }
+
+    return 1;
 }
 
 }

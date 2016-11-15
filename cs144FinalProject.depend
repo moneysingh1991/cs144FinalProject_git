@@ -25,11 +25,11 @@
 	"Search.h"
 	<fstream>
 
-1478521250 c:\users\maninderpal\desktop\code_block\cs144finalproject\include\search.h
+1479175454 c:\users\maninderpal\desktop\code_block\cs144finalproject\include\search.h
 	<vector>
 	<string>
 
-1478521250 source:c:\users\maninderpal\desktop\code_block\cs144finalproject\src\search.cpp
+1479176238 source:c:\users\maninderpal\desktop\code_block\cs144finalproject\src\search.cpp
 	<fstream>
 	<iostream>
 	<cstdlib>
@@ -37,4 +37,5 @@
 	<fstream>
 	"string.h"
 	<sstream>
+	<algorithm>
 
