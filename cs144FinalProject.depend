@@ -18,18 +18,21 @@
 	<fstream>
 	"string.h"
 
-1478372300 source:c:\users\maninderpal\desktop\code_block\cs144finalproject\main.cpp
+1479768396 source:c:\users\maninderpal\desktop\code_block\cs144finalproject\main.cpp
 	<iostream>
 	<string>
 	<vector>
 	"Search.h"
 	<fstream>
+	"Result.h"
+	"string.h"
+	<algorithm>
 
-1479175454 c:\users\maninderpal\desktop\code_block\cs144finalproject\include\search.h
+1479685297 c:\users\maninderpal\desktop\code_block\cs144finalproject\include\search.h
 	<vector>
 	<string>
 
-1479176238 source:c:\users\maninderpal\desktop\code_block\cs144finalproject\src\search.cpp
+1479766278 source:c:\users\maninderpal\desktop\code_block\cs144finalproject\src\search.cpp
 	<fstream>
 	<iostream>
 	<cstdlib>
@@ -38,4 +41,20 @@
 	"string.h"
 	<sstream>
 	<algorithm>
+	<map>
+	<typeinfo>
+
+1479768284 c:\users\maninderpal\desktop\code_block\cs144finalproject\include\result.h
+	"Search.h"
+
+1479768817 source:c:\users\maninderpal\desktop\code_block\cs144finalproject\src\result.cpp
+	"Result.h"
+	<iostream>
+	<string>
+	<vector>
+	"Search.h"
+	<fstream>
+	"string.h"
+	<algorithm>
+	<memory>
 

@@ -6,6 +6,8 @@
 #include "string.h"
 #include <sstream>
 #include <algorithm>
+#include <map>
+#include <typeinfo>
 
 
 
@@ -20,6 +22,8 @@ char table1_header[] = "keyword count filename";
 
 char table1_status_file[] = "created_files/table1_status.txt";   // this file include file status
 char table1_status_header[] = "is_searched filename";
+char tempfile[] = "tempfile.txt";
+//string search_word = "str";
 
 /**
         Created by: Maninderpal Singh
@@ -28,16 +32,37 @@ char table1_status_header[] = "is_searched filename";
 **/
 Search::Search()
 {
-     keyword_pre_process(); // this function will count all possible keyword from all file
+
+    keyword_pre_process(); // this function will count all possible keyword from all file
 
     //Search::produce_result_of_keyword("hello");
 
-    helper1::print_vector(produce_result_of_keyword("and"));
+   // helper1::print_vector(Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word));
+
+
+    //produce_result_from_file("and");
+
+
 
     // cout << strcasecmp(helper1::convert_string_to_char_array("hellooooo"), helper1::convert_string_to_char_array("Hello"));
 
 
 }
+
+//---------------------------------------------------------------------------
+
+/**
+        Created by: Maninderpal Singh
+
+            void produce_result_in_pair_vector()
+            function will produce result in pair vector like filename and result
+        **/
+         vector<pair<string,string> > Search::produce_result_in_pair_vector( string search_word) {
+             vector<pair<string,string> > vec;
+
+            return Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word);
+
+         }
 
 //--------------------------------------------------------------------------------------
 /**
@@ -147,10 +172,10 @@ void Search::keyword_pre_process()
     }
     else
     {
-       // insert_data_in_vector(vec,vec2);  // insert data in vector
+        // insert_data_in_vector(vec,vec2);  // insert data in vector
 
         //insert_data_in_file(table1_status_file, vec2);  // inserting vector data in file
-        cout << "Status is good at checking table1 file and table1_status_file" << endl;
+        //cout << "Status is good at checking table1 file and table1_status_file" << endl;
     }
 
 }
@@ -281,7 +306,7 @@ void Search::insert_data_in_vector(vector<string> &vec, vector<string> &file_sta
 
                 if(helper1::check_extra_character(keyword) == 0 && keyword.size() > 2 && helper1::check_word_in_vector(check_word, keyword) == 1)
                 {
-                     // storing result of count in file with converting int to string
+                    // storing result of count in file with converting int to string
                     result = static_cast<ostringstream*>( &(ostringstream() << Search::count_word_from_file(tab2, keyword)) )->str();
                     vec_store_string =  keyword + " " + result + " " +*i ;
                     vec.push_back(vec_store_string);
@@ -292,7 +317,7 @@ void Search::insert_data_in_vector(vector<string> &vec, vector<string> &file_sta
 
             file.close();
 
-           // helper1::print_vector(check_word);
+            // helper1::print_vector(check_word);
 
             check_word.clear();
 
@@ -424,6 +449,11 @@ vector<string> Search::produce_result_of_keyword(string word)
     string fileword;
     string count_keyword;
     string filename;
+    vector<string> data;
+    string temp;
+    int count_num;
+    vector<pair<string,int> > vec_pair;
+    pair<string, int> pair_item;
 
 
     if(Search::check_file(table1) == 1)
@@ -434,27 +464,99 @@ vector<string> Search::produce_result_of_keyword(string word)
 
         while( file >> fileword && file >> count_keyword && file >> filename) // for each fileword word read from the file
         {
-           // cout << endl << fileword << " " << count_keyword << " " << filename;
+            // cout << endl << fileword << " " << count_keyword << " " << filename;
 
             if( helper1::compare_string(word, fileword) == 1)
             {
 
-                 //file >> count_keyword;
-                 //file >> filename;
-
-
                 vec.push_back(fileword + " " + count_keyword + " " + filename );
             }
-
-           // file >> count_keyword;
-            //file >> filename;
 
         }
 
         file.close();
 
-        return vec;
+        // return vec;
     }
+
+
+    // data = produce_result_of_keyword(keyword);
+
+    data = vec;
+
+
+    // helper1::print_vector(data);
+
+    Search::insert_data_in_tempfile(tempfile, data);
+
+    if(check_file(helper1::convert_string_to_char_array(tempfile)) == 1)
+    {
+        //  cout << endl << "This is working for temp file ........";
+
+        file.open(tempfile);
+
+
+        while( file >> fileword && file >> count_keyword && file >> filename)
+        {
+            //  cout << endl << fileword << " "<< count_keyword << " " << filename;
+            temp = fileword + " " + filename;
+            istringstream convert(count_keyword);
+            convert >> count_num;
+
+            //  cout << endl << count_num;
+
+            //  map_data[temp] = count_num;
+            pair_item.first = temp;
+            pair_item.second = count_num;
+
+            vec_pair.push_back(pair_item);
+
+        }
+
+        /**
+        Here used lemda function and this auto work with c++ 14 only
+        **/
+        sort(vec_pair.begin(), vec_pair.end(),  [](auto &left, auto &right)
+        {
+            return left.second > right.second;
+        });
+
+        // cout << endl << "This is map " << endl;
+
+        //for ( vector<pair<string,int> >::iterator it=vec_pair.begin(); it!=vec_pair.end(); ++it)
+        //  cout << it->first << " => " << it->second << '\n';
+
+        file.close();
+
+        // writing sorting data with descending order data in temp file
+        ofstream writefile;
+        writefile.open(tempfile);
+
+        for ( vector<pair<string,int> >::iterator it=vec_pair.begin(); it!=vec_pair.end(); ++it)
+        {
+            writefile  << it->first << '\n';
+
+        }
+
+        writefile.close();
+
+    }
+
+    // grab data from temp file
+
+    vec.clear();
+
+    file.open(tempfile);
+
+    while( file >> fileword && file >> filename) // for each fileword word read from the file
+    {
+        vec.push_back(filename);
+    }
+
+    file.close();
+
+    return vec;
+
 }
 
 //--------------------------------------------------------------//
@@ -472,20 +574,43 @@ char *convert_string_to_char_array(string word)
     return word_array;
 }
 
-void print_vector(vector<string> path)
+void print_vector(vector<pair<string, string> > path)
 {
-    int j = 0;
-    int k = 5;
+    int k = 0;
+
+    if(path.size() > 0)
+    {
+        for ( vector<pair<string,string> >::iterator it=path.begin(); it!=path.end(); ++it)
+        {
+            //cout << endl << it->first;
+            cout << endl << "[" << k <<"] = " << it->second;
+            k++;
+        }
+
+    }
+
+    else
+    {
+        cout << endl << "No Result found";
+    }
+}
+
+template <class T>
+void print_Generic(T path)
+{
+
+    int k = 0;
+
     if(path.size() > 0)
     {
 
-        vector<string>::iterator i;
+            for (auto i = path.begin(); i != path.end(); i++)
+            {
+                cout << endl << "[" << k <<"] = " << *i;
+                k++;
 
-        for (i = path.begin(); i != path.end(); i++)
-        {
-            cout << endl <<*i;
+            }
 
-        }
 
     }
     else
@@ -533,7 +658,8 @@ int compare_string(string word1, string word2)
 
 int check_word_in_vector(vector<string> path, string keyword)
 {
-    if(path.size() == 0) {
+    if(path.size() == 0)
+    {
 
         return 1;
     }
@@ -554,3 +680,116 @@ int check_word_in_vector(vector<string> path, string keyword)
 
 }
 //--------------------------------------------------------------
+
+/**
+        Created by: Maninderpal Singh
+
+            void produce_result_from_file()
+            function will produce result of given keyword
+        **/
+
+vector<pair<string,string> > Search::produce_result_of_keyword(vector<string> vect, string search_keyword)
+{
+    vector<string> *vec = nullptr;
+    vector<string> result_vector;
+    ifstream file;
+    string result = " ";
+    string temp;
+    vector<pair<string,string> > vec_pair;
+    pair<string, string> pair_item;
+
+    int cont = 1;
+
+    vec = &vect;
+
+
+
+    for ( vector <string>::iterator it=vec->begin(); it!=vec->end(); ++it)
+    {
+        // cout << endl << "------------------------------------------------------------";
+
+        if(check_file(helper1::convert_string_to_char_array(*it)) == 1)
+        {
+
+            file.open(*it);
+
+            while(!file.eof())
+            {
+                file >> temp;
+
+                if(temp == search_keyword)
+                {
+                    while(cont < 20)
+                    {
+                        result = result + temp + " ";
+
+                        file >> temp;
+                        cont++;
+                    }
+
+                    pair_item.first = *it;
+                    pair_item.second = result;
+
+                    // result_vector.push_back(result);
+                    vec_pair.push_back(pair_item);
+
+                    result = " ";
+
+                    cont = 1;
+                }
+            }
+
+
+            file.close();
+
+
+        }
+        else
+        {
+            cout << endl << "file not exist";
+        }
+
+        //cout << endl << "------------------------------------------------------------";
+    }
+
+
+
+    return vec_pair;
+
+}
+//------------------------------------------------------------------
+
+/**
+        Created by: Maninderpal Singh
+        insert_data_in_tempfile()
+        first argument is file name which char[]
+        second aregument is vector which contain data
+        This function is used for insert data in file in overwrite mode
+        **/
+
+void Search::insert_data_in_tempfile(char filename[], vector<string> data)
+{
+    if(check_file(filename) == 0)
+    {
+        cout <<  "cannot insert file check fail" << endl;
+    }
+    else
+    {
+        ofstream writefile;
+
+        writefile.open(filename);  // insert data in file as append mode
+
+
+        vector<string>::iterator i;
+
+        for (i = data.begin(); i != data.end(); i++)
+        {
+            writefile  << *i << '\n';
+        }
+
+
+        writefile.close();
+
+    }
+
+}

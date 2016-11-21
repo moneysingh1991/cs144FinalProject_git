@@ -7,7 +7,6 @@ using namespace std;
 
  struct letter_only;
 
-
 namespace helper1 {
     /**
             Created by: Maninderpal Singh
@@ -43,7 +42,12 @@ namespace helper1 {
             print_vector()
             This function will print print vector
 **/
-        void print_vector(vector<string> path);
+
+template <class T>
+        void print_Generic(T path);
+
+      //  void print_vector(vector<string> path);
+        void print_vector(vector< pair<string, string> > path);
 
 
 /**
@@ -53,6 +57,8 @@ namespace helper1 {
             This function will return 1 if string are same otherwise 0
 **/
         int compare_string(string word1, string word2);
+
+
 }
 
 
@@ -132,9 +138,29 @@ class Search
 
         int check_file(char filename[]);
 
+        /**
+        Created by: Maninderpal Singh
+        insert_data_in_tempfile()
+        first argument is file name which char[]
+        second aregument is vector which contain data
+        This function is used for insert data in file in overwrite mode
+        **/
+
+        void insert_data_in_tempfile(char filename[], vector<string> data);
+
+        /**
+        Created by: Maninderpal Singh
+
+            void produce_result_in_pair_vector()
+            function will produce result in pair vector like filename and result
+        **/
+
+        vector<pair<string,string> > produce_result_in_pair_vector(string keyword);
 
 
     protected:
+
+
 
     private:
         char keyword_Count_filename[];
@@ -161,9 +187,14 @@ class Search
 
         vector<string> produce_result_of_keyword(string word);
 
+        /**
+        Created by: Maninderpal Singh
 
+            void produce_result_of_keyword()
+            function will produce result of given keyword
+        **/
 
-
+        vector<pair<string,string> > produce_result_of_keyword(vector<string> vec, string keyword);
 
 };
 

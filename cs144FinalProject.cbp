@@ -31,8 +31,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Result.h" />
 		<Unit filename="include/Search.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Result.cpp" />
 		<Unit filename="src/Search.cpp" />
 		<Extensions>
 			<code_completion />
