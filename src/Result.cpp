@@ -5,6 +5,7 @@
 #include "Search.h"
 #include <fstream>
 #include "string.h"
+#include "User.h"
 #include <algorithm>
 #include <memory>
 
@@ -25,6 +26,23 @@ Result::~Result()
 
 }
 
+bool Result::userExists(int a)
+{
+    string check = to_string(a);
+    ifstream file("users.txt");
+    string str;
+    while(getline(file,str))
+    {
+        if(str == check)
+        {
+            cout << "User found!" << endl;
+            return true;
+        }
+    }
+    cout << "User not found!" << endl;
+    return false;
+}
+
 /**
 
 Created by: Maninderpal Singh
@@ -34,7 +52,7 @@ This is function overriding
 This function will call produce_result_in_pair_vector() inside Search class which is protected
 
 **/
-vector<pair<string,string> > Result::produce_result_in_pair_vector(string keyword)
+vector<pair<string,string>> Result::produce_result_in_pair_vector(string keyword)
 {
     shared_ptr<Search> s;
     return s->produce_result_in_pair_vector(keyword);
@@ -78,30 +96,61 @@ void Result::Main_prog()
     string input_string = "";
     string exit = "";
     int entry = 0;
-    int user_id;
+    fstream userfile;
+    userfile.open("users.txt",ios::app);
+    int user_id = -1;
+    Main_menu();
     while(exit != "exit")
     {
-        Main_menu();
 
         cout << endl << "Enter selection : ";
         cin >> entry;
-
         while(!cin)
         {
             cin.clear(); // reset failbit
             cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //skip bad input
-            cout << endl << "Enter valid selection of 1, 2, or 3: ";
+            cout << "Enter valid selection of 1, 2, or 3: ";
             cin >> entry;
         }
-
         switch(entry)
         {
         case 1:
-            cout << endl << "Welcome to the SJSU Search Engine ";
-
-            cout << endl << "Please enter your user id:";
+            cout << endl << "Welcome to the SJSU Search Engine.";
+            cout << endl << "Please enter your user id: ";
             cin >> user_id;
-
+            if(userExists(user_id))
+            {
+                User currentUser(user_id);
+                searching_start(currentUser);
+            }
+            else
+            {
+                cout << "Would you like to create new user with an id of " << user_id << "? yes or no" << endl;
+                while(input_string != "yes" && input_string != "no")
+                {
+                    cin >> input_string;
+                    if(input_string == "yes")
+                    {
+                        cout << "Create new user with an id of " << user_id << "." << endl;
+                        userfile << "\n";
+                        userfile << to_string(user_id);
+                        User currentUser(user_id);
+                        cout << "User search starting." << endl;
+                        searching_start(currentUser);
+                    }
+                    else if(input_string == "no")
+                    {
+                        cout << "User-less search starting." << endl;
+                        user_id = -1;
+                        User currentUser(user_id);
+                        searching_start(currentUser);
+                    }
+                    else
+                    {
+                        cout << "Enter a valid option yes or no: " << endl;
+                    }
+                }
+            }
             while(!cin)
             {
                 cin.clear(); // reset failbit
@@ -112,12 +161,12 @@ void Result::Main_prog()
             exit = "exit";
             break;
         case 2:
-
+        {
             input_string = "";
 
             cout << endl << "Welcome to the SJSU Search Engine ";
-
-            searching_start();
+            User currentUser(0);
+            searching_start(currentUser);
 
             while(input_string != "no")
             {
@@ -126,31 +175,28 @@ void Result::Main_prog()
                 transform(input_string.begin(), input_string.end(), input_string.begin(), to_lower);
                 if(input_string == "yes")
                 {
-                    searching_start();
-
+                    User currentUser(user_id);
+                    searching_start(currentUser);
                 }
                 else if(input_string == "no")
                 {
-                    cout << endl << "Thank you for searching" << endl;
+                    cout  << "Thank you for searching." << endl;
                     exit = "exit";
-
                 }
                 else
                 {
-                    cout << endl << "Invalid entry";
+                    cout << "Invalid entry";
                 }
-
             }
-
-            break;
-
+        }
+        break;
         case 3:
-            cout << endl << "Thank you for searching" << endl;
+            cout << "Thank you for searching." << endl;
             exit = "exit";
             break;
 
         default:
-            cout << endl << "Invalid entry";
+            cout << "Invalid entry";
         }
     }
 }
@@ -164,12 +210,12 @@ This function will show result according to user input and will check all valid 
 
 **/
 
-void Result::searching_start()
+void Result::searching_start(User currentUser)
 {
 
     string search_keyword;
     int number_of_result_shown;
-    vector<pair<string, string> > vec_pair_result;
+    vector<pair<string, string>> vec_pair_result;
     Search s;
     Result *result_obj;
     int entry = 9999999;
@@ -178,11 +224,10 @@ void Result::searching_start()
     string input_string = "";
     string result_file_name = "";
     int flag = 0;
-
-
-    cout << endl << endl << "Enter search keyword:";
+    string results[NUM_OF_RESULT_SHOWN];
+    cout << endl << "Enter search keyword: ";
     cin >> search_keyword;
-
+    int count = 0;
     transform(search_keyword.begin(), search_keyword.end(), search_keyword.begin(),  to_lower);
 
     if(produce_result_in_pair_vector(search_keyword).size() > 0)
@@ -193,16 +238,18 @@ void Result::searching_start()
         {
             flag = 0;
             cout << endl << "----------------------Result---------------------" << endl;
-            for( i = index; i < index + NUM_OF_RESULT_SHOWN; i++)
+            for(i = index; i < index + NUM_OF_RESULT_SHOWN; i++)
             {
-                if(i < vec_pair_result.size() )
+                if(i < vec_pair_result.size())
                 {
-                    cout << endl << "[" << i <<"]"<<vec_pair_result[i].second;
+                    cout << "[" << i <<"]"<< vec_pair_result[i].second << endl;
+                    results[count++] = "[" + to_string(i) + "]" + vec_pair_result[i].second;
                 }
             }
             cout << endl << "----------------------Result---------------------" << endl;
             index = i;
-            cout << endl << "Did you like the result? (yes, no, or exit) : ";
+            count = 0;
+            cout << endl << "Did you like the result? (yes, no, or exit): ";
             cin >> input_string;
             transform(input_string.begin(), input_string.end(), input_string.begin(), to_lower);
 
@@ -212,32 +259,37 @@ void Result::searching_start()
             }
             else
             {
-
                 while(flag != 1)
                 {
-
                     if(input_string == "no" || input_string == "yes" || input_string == "exit")
                     {
                         flag = 1;   // exit flag
                     }
                     else
                     {
-                        cout << endl << "Invalid Entry Please enter yes, no or exit:";
+                        cout << endl << "Invalid Entry. Please enter yes, no or exit: ";
                         cin >> input_string;
                         transform(input_string.begin(), input_string.end(), input_string.begin(), to_lower);
                     }
                 }
                 if(input_string == "yes")
                 {
-
-                    cout << endl << "Which result do you want to open:";
+                    if(currentUser.id > 0)
+                    {
+                        cout << "Saving results for keyword \"" << search_keyword << "\" to file." << endl;
+                        string outFileName = to_string(currentUser.id) + search_keyword;
+                        ofstream outfile;
+                        outfile.open("created_files\\"+outFileName+".txt",ios::app);
+                        for(int x = 0; x < sizeof(results)/sizeof(*results); x++)
+                            outfile << results[x] + "\n";
+                    }
+                    cout << "Which result do you want to open: ";
                     cin >> entry;
 
                     while(entry < 0 || entry >= index)
                     {
-                        cout << endl << "Provide a valid entry to be opened:";
+                        cout << endl << "Provide a valid entry to be opened: ";
                         cin >> entry;
-
                     }
                     input_string = "exit";
                     //  break;
@@ -247,12 +299,12 @@ void Result::searching_start()
         if(entry > -1 && entry < index)
         {
             result_file_name = vec_pair_result[entry].first;
-            cout << endl << "Opening file name : " << result_file_name;
+            cout << endl << "Opening file name: " << result_file_name;
             entry = 9999999;
         }
     }
     else
     {
-        cout << endl << "No result found" << endl;
+        cout << "No results were found." << endl;
     }
 }

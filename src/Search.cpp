@@ -35,7 +35,7 @@ Search::Search()
 
     //Search::produce_result_of_keyword("hello");
 
-   // helper1::print_vector(Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word));
+    // helper1::print_vector(Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word));
 
 
     //produce_result_from_file("and");
@@ -55,12 +55,13 @@ Search::Search()
             void produce_result_in_pair_vector()
             function will produce result in pair vector like filename and result
         **/
-         vector<pair<string,string> > Search::produce_result_in_pair_vector( string search_word) {
-             vector<pair<string,string> > vec;
+vector<pair<string,string> > Search::produce_result_in_pair_vector( string search_word)
+{
+    vector<pair<string,string> > vec;
 
-            return Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word);
+    return Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word);
 
-         }
+}
 
 //--------------------------------------------------------------------------------------
 /**
@@ -81,18 +82,14 @@ grab_all_Files() function will grab all files path and store in vector and retur
 **/
 vector<string> Search::grab_all_Files(char file_path[])
 {
-
     vector<string> filePath;
     ifstream infile;
-
     //char read_file_name = Search::file_path;
-
     infile.open(file_path);
 
     if (infile.fail())
     {
         cout << "Failed to open." << endl;
-
     }
     else
     {
@@ -100,14 +97,10 @@ vector<string> Search::grab_all_Files(char file_path[])
         while (!infile.eof())
         {
             infile >> sLine;
-
             filePath.push_back(sLine.data());
-
         }
-
         infile.close();
     }
-
     return filePath;
 }
 
@@ -470,22 +463,17 @@ vector<string> Search::produce_result_of_keyword(string word)
             pair_item.second = count_num;
             vec_pair.push_back(pair_item);
         }
-
         /**
-        Here used lemda function and this auto work with c++ 14 only
+        Here used lambda function and this auto work with c++ 14 only
         **/
         sort(vec_pair.begin(), vec_pair.end(),  [](auto &left, auto &right)
         {
             return left.second > right.second;
         });
-
         // cout << endl << "This is map " << endl;
-
         //for ( vector<pair<string,int> >::iterator it=vec_pair.begin(); it!=vec_pair.end(); ++it)
         //  cout << it->first << " => " << it->second << '\n';
-
         file.close();
-
         // writing sorting data with descending order data in temp file
         ofstream writefile;
         writefile.open(tempfile);
@@ -493,42 +481,29 @@ vector<string> Search::produce_result_of_keyword(string word)
         for ( vector<pair<string,int> >::iterator it=vec_pair.begin(); it!=vec_pair.end(); ++it)
         {
             writefile  << it->first << '\n';
-
         }
-
         writefile.close();
-
     }
 
     // grab data from temp file
 
     vec.clear();
-
     file.open(tempfile);
-
     while( file >> fileword && file >> filename) // for each fileword word read from the file
     {
         vec.push_back(filename);
     }
-
     file.close();
-
     return vec;
-
 }
-
 //--------------------------------------------------------------//
 
 namespace helper1
 {
-
 char *convert_string_to_char_array(string word)
 {
-
     char* word_array = new char[1024];
-
     strcpy(word_array, word.c_str());
-
     return word_array;
 }
 
@@ -562,12 +537,12 @@ void print_Generic(T path)
     if(path.size() > 0)
     {
 
-            for (auto i = path.begin(); i != path.end(); i++)
-            {
-                cout << endl << "[" << k <<"] = " << *i;
-                k++;
+        for (auto i = path.begin(); i != path.end(); i++)
+        {
+            cout << endl << "[" << k <<"] = " << *i;
+            k++;
 
-            }
+        }
 
 
     }
@@ -618,21 +593,16 @@ int check_word_in_vector(vector<string> path, string keyword)
 {
     if(path.size() == 0)
     {
-
         return 1;
     }
-
     vector<string>::iterator i;
-
     for (i = path.begin(); i != path.end(); i++)
     {
         if(compare_string(*i, keyword) == 1)
         {
             return 0;
         }
-
     }
-
     return 1;
 }
 

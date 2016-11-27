@@ -58,7 +58,7 @@
 	<algorithm>
 	<memory>
 
-1479780956 source:c:\users\anthony\cs144finalproject_git\src\search.cpp
+1480271456 source:c:\users\anthony\cs144finalproject_git\src\search.cpp
 	<fstream>
 	<iostream>
 	<cstdlib>
@@ -70,7 +70,38 @@
 	<map>
 	<typeinfo>
 
-1479780956 c:\users\anthony\cs144finalproject_git\include\search.h
+1480271257 c:\users\anthony\cs144finalproject_git\include\search.h
 	<vector>
 	<string>
+
+1479800318 source:c:\users\anthony\cs144finalproject_git\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"Search.h"
+	<fstream>
+	"Result.h"
+	"string.h"
+	<algorithm>
+
+1480274471 c:\users\anthony\cs144finalproject_git\include\result.h
+	"Search.h"
+	"User.h"
+
+1480271334 source:c:\users\anthony\cs144finalproject_git\src\user.cpp
+	"User.h"
+
+1480274511 c:\users\anthony\cs144finalproject_git\include\user.h
+
+1480276395 source:c:\users\anthony\cs144finalproject_git\src\result.cpp
+	"Result.h"
+	<iostream>
+	<string>
+	<vector>
+	"Search.h"
+	<fstream>
+	"string.h"
+	"User.h"
+	<algorithm>
+	<memory>
 

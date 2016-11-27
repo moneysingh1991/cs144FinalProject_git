@@ -1,0 +1,5 @@
+[15] and S2 can be expressed by the fo 1 Io w in g logical functions : 658 number of 
+[16] and have n o connection with the remaining areas in S2. For simplicity, the connection strengths ( i.e. weights 
+[17] and C, three 2x2 array patterns as shown in Figs. 2(a), (b) and (c), respectively. The pixel-pattern relationship is 
+[18] and C, pixel 2 is the common feature of A and B, pixel 3 the common feature of A 
+[19] and pixel 4 represents the special feature of C. By a p p l y i n g R 
