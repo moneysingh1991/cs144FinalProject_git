@@ -158,10 +158,6 @@ class Search
         vector<pair<string,string> > produce_result_in_pair_vector(string keyword);
 
 
-    protected:
-
-
-
     private:
         char keyword_Count_filename[];
 

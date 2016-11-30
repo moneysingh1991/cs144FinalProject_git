@@ -1,0 +1,5 @@
+[0] and Francis T. S . Yu Department of Electrical Engineering The Pennsylvania State University University Park, PA 16802 ABSTRACT 
+[1] and spec ia l f ea tu re s o f reference pat terns (i .e. , in ter-pat 
+[2] and au to -as soc ia t ive memory a r e syn thes i zed by a p 
+[3] and a higher storage capacity than Hopfield model. A 2-D adaptive optical neural network is used to perform p 
+[4] and the interconnect ions are much s impler than the Hopfield model. In this paper, we shall present a 

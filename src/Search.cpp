@@ -9,8 +9,6 @@
 #include <map>
 #include <typeinfo>
 
-
-
 using namespace std;
 
 char file_path[] = "filepath.txt";
@@ -37,7 +35,7 @@ Search::Search()
 
     //Search::produce_result_of_keyword("hello");
 
-   // helper1::print_vector(Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word));
+    // helper1::print_vector(Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word));
 
 
     //produce_result_from_file("and");
@@ -54,15 +52,16 @@ Search::Search()
 /**
         Created by: Maninderpal Singh
 
-            void produce_result_in_pair_vector()
+             produce_result_in_pair_vector()
             function will produce result in pair vector like filename and result
         **/
-         vector<pair<string,string> > Search::produce_result_in_pair_vector( string search_word) {
-             vector<pair<string,string> > vec;
+vector<pair<string,string> > Search::produce_result_in_pair_vector( string search_word)
+{
+    vector<pair<string,string> > vec;
 
-            return Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word);
+    return Search::produce_result_of_keyword( Search::produce_result_of_keyword(search_word), search_word);
 
-         }
+}
 
 //--------------------------------------------------------------------------------------
 /**
@@ -83,18 +82,14 @@ grab_all_Files() function will grab all files path and store in vector and retur
 **/
 vector<string> Search::grab_all_Files(char file_path[])
 {
-
     vector<string> filePath;
     ifstream infile;
-
     //char read_file_name = Search::file_path;
-
     infile.open(file_path);
 
     if (infile.fail())
     {
-        cout << "open failed" << endl;
-
+        cout << "Failed to open." << endl;
     }
     else
     {
@@ -102,14 +97,10 @@ vector<string> Search::grab_all_Files(char file_path[])
         while (!infile.eof())
         {
             infile >> sLine;
-
             filePath.push_back(sLine.data());
-
         }
-
         infile.close();
     }
-
     return filePath;
 }
 
@@ -129,9 +120,9 @@ void Search::keyword_pre_process()
 
     if(check_file(table1) == 0 ||Search::check_file(table1_status_file) == 0)
     {
-        cout << "exit cant run further because no file exist" << endl;
+        cout << "Exit can't run further because no file exists" << endl;
 
-        cout << "You want continue and wait for all processing: Enter yes or no : ";
+        cout << "Do you wish to continue? Enter yes or no: ";
 
         string user_input;
 
@@ -139,34 +130,31 @@ void Search::keyword_pre_process()
 
         if(user_input == "yes")
         {
-            cout << "Be patient It will take time ........" << endl;
+            cout << "Please be patient. This will take some time ........" << endl;
             create_table1_status_file(table1_status_file, table1_status_header);
-
-
-
             create_file(table1, table1_header); // first creating file
 
             ifstream filename;
 
             filename.open(table1);
 
-            if(filename.fail() )
+            if(filename.fail())
             {
-                cout << " failed to open " << table1 << endl;
+                cout << "Failed to open" << table1 << endl;
             }
             else
             {
-                cout << " file created successfully " << endl;
+                cout << "File created successfully" << endl;
             }
 
             insert_data_in_vector(vec, vec2);  // insert data in vector
             insert_data_in_file(table1, vec);  // inserting vector data in file
             insert_data_in_file(table1_status_file, vec2);  // inserting vector data in file
-            cout << "Processing ........ Done" << endl;
+            cout << "Processing finished" << endl;
         }
         else
         {
-            cout << "program terminate .............." << endl;
+            cout << "Terminating..." << endl;
             exit(0);
         }
     }
@@ -199,7 +187,7 @@ void Search::create_file(char filename[], char fileHeaderLine[])
     }
     catch (exception e)
     {
-        cout << "error to create " << filename << endl;
+        cout << "Error on creation" << filename << endl;
     }
 }
 
@@ -210,7 +198,7 @@ void Search::create_file(char filename[], char fileHeaderLine[])
         Created by: Maninderpal Singh
         inserting data in file
         first argument is file name which char[]
-        second aregument is vector which contain data
+        second argument is vector which contain data
 **/
 
 void Search::insert_data_in_file(char filename[], vector<string> data)
@@ -275,9 +263,7 @@ void Search::insert_data_in_vector(vector<string> &vec, vector<string> &file_sta
 
     vector<string> file_vector = grab_all_Files(file_path);
     char* tab2 = new char [1024]; // char[] for copy string value
-
     vector<string>::iterator i;
-
     string vector_str;
     string vec_store_string;
     string keyword;
@@ -285,10 +271,8 @@ void Search::insert_data_in_vector(vector<string> &vec, vector<string> &file_sta
     ifstream file;
     string result;
     vector<string> check_word;
-
     for (i = file_vector.begin(); i != file_vector.end(); i++)
     {
-
 
         cout << endl <<*i << " started ............."<< endl;
         vector_str = *i;
@@ -348,14 +332,10 @@ int Search::count_word_from_file(char filename[], string keyword)
     int countwords = 0 ;
     string fileword;
 
-
-
     if(Search::check_file(filename) == 1)
     {
 
         file.open(filename);
-
-
         while( file >> fileword ) // for each fileword word read from the file
         {
 
@@ -363,20 +343,15 @@ int Search::count_word_from_file(char filename[], string keyword)
             {
                 ++countwords ;
             }
-
         }
-
         file.close(); // close file
-
         return countwords;
     }
-
     else
     {
         cerr << "Error! File not found!\n" ;
         return 1 ;
     }
-
 }
 
 /**
@@ -385,8 +360,6 @@ int Search::count_word_from_file(char filename[], string keyword)
            check_extra_character
            This function will check each word of file with invalid character if invalid return 1 otherwise 0
 **/
-
-
 int helper1::check_extra_character(string word)
 {
 
@@ -404,32 +377,24 @@ int helper1::check_extra_character(string word)
     {
         while(check_char_file >> char_check_string)
         {
-
             word_check_array = helper1::convert_string_to_char_array(char_check_string);
         }
         check_char_file.close();
     }
     else
     {
-        cout << "file open failed : " << skip_word_file << endl;
+        cout << "Failed to open file: " << skip_word_file << endl;
     }
-
-
-
     while(word_check_array[i] != '\0')   // read array till end
     {
-
         if(strchr(word.c_str(), word_check_array[i]))
         {
             return 1;
         }
         i++;
     }
-
     return 0;
-
 }
-
 //----------------------------------------------------------------//
 
 /**
@@ -458,24 +423,17 @@ vector<string> Search::produce_result_of_keyword(string word)
 
     if(Search::check_file(table1) == 1)
     {
-
         file.open(table1);
-
-
         while( file >> fileword && file >> count_keyword && file >> filename) // for each fileword word read from the file
         {
             // cout << endl << fileword << " " << count_keyword << " " << filename;
 
             if( helper1::compare_string(word, fileword) == 1)
             {
-
                 vec.push_back(fileword + " " + count_keyword + " " + filename );
             }
-
         }
-
         file.close();
-
         // return vec;
     }
 
@@ -492,42 +450,30 @@ vector<string> Search::produce_result_of_keyword(string word)
     if(check_file(helper1::convert_string_to_char_array(tempfile)) == 1)
     {
         //  cout << endl << "This is working for temp file ........";
-
         file.open(tempfile);
-
-
         while( file >> fileword && file >> count_keyword && file >> filename)
         {
             //  cout << endl << fileword << " "<< count_keyword << " " << filename;
             temp = fileword + " " + filename;
             istringstream convert(count_keyword);
             convert >> count_num;
-
             //  cout << endl << count_num;
-
             //  map_data[temp] = count_num;
             pair_item.first = temp;
             pair_item.second = count_num;
-
             vec_pair.push_back(pair_item);
-
         }
-
         /**
-        Here used lemda function and this auto work with c++ 14 only
+        Here used lambda function and this auto work with c++ 14 only
         **/
         sort(vec_pair.begin(), vec_pair.end(),  [](auto &left, auto &right)
         {
             return left.second > right.second;
         });
-
         // cout << endl << "This is map " << endl;
-
         //for ( vector<pair<string,int> >::iterator it=vec_pair.begin(); it!=vec_pair.end(); ++it)
         //  cout << it->first << " => " << it->second << '\n';
-
         file.close();
-
         // writing sorting data with descending order data in temp file
         ofstream writefile;
         writefile.open(tempfile);
@@ -535,42 +481,29 @@ vector<string> Search::produce_result_of_keyword(string word)
         for ( vector<pair<string,int> >::iterator it=vec_pair.begin(); it!=vec_pair.end(); ++it)
         {
             writefile  << it->first << '\n';
-
         }
-
         writefile.close();
-
     }
 
     // grab data from temp file
 
     vec.clear();
-
     file.open(tempfile);
-
     while( file >> fileword && file >> filename) // for each fileword word read from the file
     {
         vec.push_back(filename);
     }
-
     file.close();
-
     return vec;
-
 }
-
 //--------------------------------------------------------------//
 
 namespace helper1
 {
-
 char *convert_string_to_char_array(string word)
 {
-
     char* word_array = new char[1024];
-
     strcpy(word_array, word.c_str());
-
     return word_array;
 }
 
@@ -604,12 +537,12 @@ void print_Generic(T path)
     if(path.size() > 0)
     {
 
-            for (auto i = path.begin(); i != path.end(); i++)
-            {
-                cout << endl << "[" << k <<"] = " << *i;
-                k++;
+        for (auto i = path.begin(); i != path.end(); i++)
+        {
+            cout << endl << "[" << k <<"] = " << *i;
+            k++;
 
-            }
+        }
 
 
     }
@@ -660,21 +593,16 @@ int check_word_in_vector(vector<string> path, string keyword)
 {
     if(path.size() == 0)
     {
-
         return 1;
     }
-
     vector<string>::iterator i;
-
     for (i = path.begin(); i != path.end(); i++)
     {
         if(compare_string(*i, keyword) == 1)
         {
             return 0;
         }
-
     }
-
     return 1;
 }
 
@@ -702,21 +630,15 @@ vector<pair<string,string> > Search::produce_result_of_keyword(vector<string> ve
 
     vec = &vect;
 
-
-
     for ( vector <string>::iterator it=vec->begin(); it!=vec->end(); ++it)
     {
         // cout << endl << "------------------------------------------------------------";
-
         if(check_file(helper1::convert_string_to_char_array(*it)) == 1)
         {
-
             file.open(*it);
-
             while(!file.eof())
             {
                 file >> temp;
-
                 if(temp == search_keyword)
                 {
                     while(cont < 20)
@@ -729,33 +651,21 @@ vector<pair<string,string> > Search::produce_result_of_keyword(vector<string> ve
 
                     pair_item.first = *it;
                     pair_item.second = result;
-
                     // result_vector.push_back(result);
                     vec_pair.push_back(pair_item);
-
                     result = " ";
-
                     cont = 1;
                 }
             }
-
-
             file.close();
-
-
         }
         else
         {
-            cout << endl << "file not exist";
+            cout << endl << "File does not exist";
         }
-
         //cout << endl << "------------------------------------------------------------";
     }
-
-
-
     return vec_pair;
-
 }
 //------------------------------------------------------------------
 
@@ -771,25 +681,17 @@ void Search::insert_data_in_tempfile(char filename[], vector<string> data)
 {
     if(check_file(filename) == 0)
     {
-        cout <<  "cannot insert file check fail" << endl;
+        cout <<  "Cannot insert. File check failed" << endl;
     }
     else
     {
         ofstream writefile;
-
         writefile.open(filename);  // insert data in file as append mode
-
-
         vector<string>::iterator i;
-
         for (i = data.begin(); i != data.end(); i++)
         {
             writefile  << *i << '\n';
         }
-
-
         writefile.close();
-
     }
-
 }
