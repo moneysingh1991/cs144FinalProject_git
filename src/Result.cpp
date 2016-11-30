@@ -69,7 +69,11 @@ This function is just menu to show user what options are available
 
 **/
 
+<<<<<<< HEAD
 void Main_menu()
+=======
+void Result::Main_menu()
+>>>>>>> ce8738ca0482e5e16c9ac4a5887944fdb95fe23b
 {
     cout << endl;
     cout << endl << "***************************************************";
@@ -101,7 +105,11 @@ void Result::Main_prog()
     fstream userfile;
     userfile.open("users.txt",ios::app);
     int user_id = -1;
+<<<<<<< HEAD
     helper2::Main_menu();
+=======
+    Main_menu();
+>>>>>>> ce8738ca0482e5e16c9ac4a5887944fdb95fe23b
     while(exit != "exit")
     {
 

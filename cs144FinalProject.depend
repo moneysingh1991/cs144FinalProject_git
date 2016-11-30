@@ -105,6 +105,7 @@
 	<algorithm>
 	<memory>
 
+<<<<<<< HEAD
 1480362049 source:c:\users\maninderpal\downloads\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\main.cpp
 	<iostream>
 	<string>
@@ -196,3 +197,5 @@
 1480362050 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\src\user.cpp
 	"User.h"
 
+=======
+>>>>>>> ce8738ca0482e5e16c9ac4a5887944fdb95fe23b

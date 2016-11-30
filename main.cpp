@@ -20,9 +20,12 @@ int main()
     string input_string = "no";
 	Result *r;
 	r = new Result();
+<<<<<<< HEAD
 
 	delete r;
 
+=======
+>>>>>>> ce8738ca0482e5e16c9ac4a5887944fdb95fe23b
 	return 0;
 }
 

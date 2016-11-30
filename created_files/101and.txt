@@ -3,8 +3,11 @@
 [17] and C, three 2x2 array patterns as shown in Figs. 2(a), (b) and (c), respectively. The pixel-pattern relationship is 
 [18] and C, pixel 2 is the common feature of A and B, pixel 3 the common feature of A 
 [19] and pixel 4 represents the special feature of C. By a p p l y i n g R 
+<<<<<<< HEAD
 [10] and then set the excitatory o r i n h i b i t o r y i n 
 [11] and C in space S 1 ( see F i g . l ( a ) ) , and 
 [12] and C' in space S2 (see F i g . l ( b ) ) . T h e 
 [13] and I11 are the special areas of patterns A, B and C. respectively. IV, V and VI are the 
 [14] and B. B and C, C and A, respectively, while VI1 is the common area of A, B and 
+=======
+>>>>>>> ce8738ca0482e5e16c9ac4a5887944fdb95fe23b
