@@ -81,7 +81,24 @@ class Search
 
         void keyword_pre_process();
 
+        /**
+        Created by: Maninderpal Singh
 
+            void convert_to_lower()
+            function will convert given string to lowercase
+        **/
+
+        void convert_to_lower(string &input_string);
+
+        /**
+        Created by: Maninderpal Singh
+
+             vector<string> produce_result_from_vector()
+            function will produce result in big paragraph and will return result in vector
+            and will take vector in argument to search result
+        **/
+
+        vector<string> produce_result_in_paragraph(string filename, string data);
 
         /**
         Created by: Maninderpal Singh
@@ -187,10 +204,12 @@ class Search
         Created by: Maninderpal Singh
 
             void produce_result_of_keyword()
-            function will produce result of given keyword
+            function will produce result of given keyword and return in vector like <filename, result>
         **/
 
         vector<pair<string,string> > produce_result_of_keyword(vector<string> vec, string keyword);
+
+
 
 };
 

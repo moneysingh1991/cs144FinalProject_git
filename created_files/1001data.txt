@@ -1,0 +1,10 @@
+[20] data and prepared it for neural network training. From an initial set of 5,182 TICARRS entries, only 1,662 usable 
+[21] data representation. Because neural networks expect fixed length patterns (i.e. vectors) to be presented during training and use, a 
+[22] data to find all possible inputs and outputs. This representation also re- quires a smaller input and output vector 
+[23] data representation would require a highly nonlinear mapping, leading to extensive training time. Hence, this method was not pursued 
+[24] data analysis requirements of this approach, encoding it is infeasible for our purposes. The second representation scheme (intermediate- unit 
+[5] data associ- ation problem (DAP) are as follows. Each column sum of the voltages must be unity so that 
+[6] data association,” IEEE Journal of Oceanic Eng., July 1983. 4. J.J. Hopfield and D.W. Tank, ““Neural” Computation of de- 
+[7] data association using neural networks,” Submitted to IEEE Trans. on Aerospace and Electronic Systems, 1987. Vol. AC-23, NO. 4, 
+[8] data structures of types that are useful in high-level cogni- tive tasks such as commonsense reasoning, planning, and natural 
+[9] data structures are, essentially, temporary configurations of symbol Occurrences in a 2D array of regis- ters. Each register is 

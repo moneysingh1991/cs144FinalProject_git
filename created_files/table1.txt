@@ -19,6 +19,7 @@ exploring 1 All_Files\AS1872To2000#220_17_81147.txt
 the 224 All_Files\AS1872To2000#220_17_81147.txt
 use 5 All_Files\AS1872To2000#220_17_81147.txt
 artificial 1 All_Files\AS1872To2000#220_17_81147.txt
+F16 1 All_Files\AS1872To2000#220_17_81147.txt
 flight 4 All_Files\AS1872To2000#220_17_81147.txt
 line 3 All_Files\AS1872To2000#220_17_81147.txt
 ANN’S 4 All_Files\AS1872To2000#220_17_81147.txt
@@ -123,6 +124,7 @@ them 1 All_Files\AS1872To2000#220_17_81147.txt
 using 3 All_Files\AS1872To2000#220_17_81147.txt
 historical 2 All_Files\AS1872To2000#220_17_81147.txt
 examined 2 All_Files\AS1872To2000#220_17_81147.txt
+ART1 1 All_Files\AS1872To2000#220_17_81147.txt
 proved 1 All_Files\AS1872To2000#220_17_81147.txt
 most 7 All_Files\AS1872To2000#220_17_81147.txt
 appropriate 4 All_Files\AS1872To2000#220_17_81147.txt
@@ -173,6 +175,7 @@ goes 1 All_Files\AS1872To2000#220_17_81147.txt
 through 5 All_Files\AS1872To2000#220_17_81147.txt
 configuration 2 All_Files\AS1872To2000#220_17_81147.txt
 process 1 All_Files\AS1872To2000#220_17_81147.txt
+351 1 All_Files\AS1872To2000#220_17_81147.txt
 agnostic 2 All_Files\AS1872To2000#220_17_81147.txt
 development 1 All_Files\AS1872To2000#220_17_81147.txt
 comes 2 All_Files\AS1872To2000#220_17_81147.txt
@@ -402,6 +405,7 @@ listed 1 All_Files\AS1872To2000#220_17_81147.txt
 tabase 1 All_Files\AS1872To2000#220_17_81147.txt
 actually 1 All_Files\AS1872To2000#220_17_81147.txt
 fixed 2 All_Files\AS1872To2000#220_17_81147.txt
+352 1 All_Files\AS1872To2000#220_17_81147.txt
 leaas 2 All_Files\AS1872To2000#220_17_81147.txt
 followed 2 All_Files\AS1872To2000#220_17_81147.txt
 possible 7 All_Files\AS1872To2000#220_17_81147.txt
@@ -412,6 +416,7 @@ vecta 1 All_Files\AS1872To2000#220_17_81147.txt
 bits 4 All_Files\AS1872To2000#220_17_81147.txt
 PIC 1 All_Files\AS1872To2000#220_17_81147.txt
 maximum 1 All_Files\AS1872To2000#220_17_81147.txt
+341 2 All_Files\AS1872To2000#220_17_81147.txt
 Lgit 1 All_Files\AS1872To2000#220_17_81147.txt
 numbers 3 All_Files\AS1872To2000#220_17_81147.txt
 vector 6 All_Files\AS1872To2000#220_17_81147.txt
@@ -419,6 +424,7 @@ cosily 1 All_Files\AS1872To2000#220_17_81147.txt
 thwsand 1 All_Files\AS1872To2000#220_17_81147.txt
 Example 2 All_Files\AS1872To2000#220_17_81147.txt
 FCR 1 All_Files\AS1872To2000#220_17_81147.txt
+003 1 All_Files\AS1872To2000#220_17_81147.txt
 consists 2 All_Files\AS1872To2000#220_17_81147.txt
 digits 4 All_Files\AS1872To2000#220_17_81147.txt
 middle 2 All_Files\AS1872To2000#220_17_81147.txt
@@ -427,6 +433,7 @@ number 18 All_Files\AS1872To2000#220_17_81147.txt
 pair 2 All_Files\AS1872To2000#220_17_81147.txt
 tbm 1 All_Files\AS1872To2000#220_17_81147.txt
 reparate 1 All_Files\AS1872To2000#220_17_81147.txt
+100 2 All_Files\AS1872To2000#220_17_81147.txt
 wmbinmims 1 All_Files\AS1872To2000#220_17_81147.txt
 veaor 1 All_Files\AS1872To2000#220_17_81147.txt
 odoff 1 All_Files\AS1872To2000#220_17_81147.txt
@@ -437,6 +444,7 @@ over 2 All_Files\AS1872To2000#220_17_81147.txt
 sand 1 All_Files\AS1872To2000#220_17_81147.txt
 coded 1 All_Files\AS1872To2000#220_17_81147.txt
 Emmwlr 1 All_Files\AS1872To2000#220_17_81147.txt
+9463AFM 1 All_Files\AS1872To2000#220_17_81147.txt
 amsirta 1 All_Files\AS1872To2000#220_17_81147.txt
 single 5 All_Files\AS1872To2000#220_17_81147.txt
 cithcr 1 All_Files\AS1872To2000#220_17_81147.txt
@@ -448,6 +456,7 @@ aorrd 1 All_Files\AS1872To2000#220_17_81147.txt
 sible 1 All_Files\AS1872To2000#220_17_81147.txt
 arc 1 All_Files\AS1872To2000#220_17_81147.txt
 ExamDlr 1 All_Files\AS1872To2000#220_17_81147.txt
+74AKB 1 All_Files\AS1872To2000#220_17_81147.txt
 amsina 1 All_Files\AS1872To2000#220_17_81147.txt
 smed 1 All_Files\AS1872To2000#220_17_81147.txt
 nately 1 All_Files\AS1872To2000#220_17_81147.txt
@@ -481,6 +490,7 @@ network’s 1 All_Files\AS1872To2000#220_17_81147.txt
 layer 2 All_Files\AS1872To2000#220_17_81147.txt
 would 8 All_Files\AS1872To2000#220_17_81147.txt
 MFL’s 1 All_Files\AS1872To2000#220_17_81147.txt
+312 1 All_Files\AS1872To2000#220_17_81147.txt
 represented 2 All_Files\AS1872To2000#220_17_81147.txt
 advantage 1 All_Files\AS1872To2000#220_17_81147.txt
 eliminates 1 All_Files\AS1872To2000#220_17_81147.txt
@@ -506,6 +516,7 @@ binuy 1 All_Files\AS1872To2000#220_17_81147.txt
 repnrentation 1 All_Files\AS1872To2000#220_17_81147.txt
 amenable 1 All_Files\AS1872To2000#220_17_81147.txt
 represmution 1 All_Files\AS1872To2000#220_17_81147.txt
+555 1 All_Files\AS1872To2000#220_17_81147.txt
 rate 2 All_Files\AS1872To2000#220_17_81147.txt
 felt 1 All_Files\AS1872To2000#220_17_81147.txt
 require 2 All_Files\AS1872To2000#220_17_81147.txt
@@ -564,6 +575,8 @@ hence 1 All_Files\AS1872To2000#220_17_81147.txt
 dynamic 1 All_Files\AS1872To2000#220_17_81147.txt
 grow 1 All_Files\AS1872To2000#220_17_81147.txt
 encoded 3 All_Files\AS1872To2000#220_17_81147.txt
+y1’ 1 All_Files\AS1872To2000#220_17_81147.txt
+y2’ 1 All_Files\AS1872To2000#220_17_81147.txt
 Jk’ 1 All_Files\AS1872To2000#220_17_81147.txt
 CLASSES 2 All_Files\AS1872To2000#220_17_81147.txt
 dynamically 2 All_Files\AS1872To2000#220_17_81147.txt
@@ -659,12 +672,14 @@ tor 1 All_Files\AS1872To2000#220_17_81147.txt
 pattem 1 All_Files\AS1872To2000#220_17_81147.txt
 attached 1 All_Files\AS1872To2000#220_17_81147.txt
 jfh 1 All_Files\AS1872To2000#220_17_81147.txt
+11’ 1 All_Files\AS1872To2000#220_17_81147.txt
 principally 1 All_Files\AS1872To2000#220_17_81147.txt
 transparently 1 All_Files\AS1872To2000#220_17_81147.txt
 framed 1 All_Files\AS1872To2000#220_17_81147.txt
 attentional 2 All_Files\AS1872To2000#220_17_81147.txt
 subsystem 3 All_Files\AS1872To2000#220_17_81147.txt
 orienting 2 All_Files\AS1872To2000#220_17_81147.txt
+354 1 All_Files\AS1872To2000#220_17_81147.txt
 facilitaw 1 All_Files\AS1872To2000#220_17_81147.txt
 resonation 1 All_Files\AS1872To2000#220_17_81147.txt
 match 4 All_Files\AS1872To2000#220_17_81147.txt
@@ -720,6 +735,7 @@ become 1 All_Files\AS1872To2000#220_17_81147.txt
 assume 1 All_Files\AS1872To2000#220_17_81147.txt
 operating 1 All_Files\AS1872To2000#220_17_81147.txt
 just 1 All_Files\AS1872To2000#220_17_81147.txt
+123 2 All_Files\AS1872To2000#220_17_81147.txt
 hypothetical 1 All_Files\AS1872To2000#220_17_81147.txt
 FCC 2 All_Files\AS1872To2000#220_17_81147.txt
 INS 4 All_Files\AS1872To2000#220_17_81147.txt
@@ -802,6 +818,7 @@ REFERENCES 1 All_Files\AS1872To2000#220_17_81147.txt
 ADDlications 1 All_Files\AS1872To2000#220_17_81147.txt
 Pergamon 1 All_Files\AS1872To2000#220_17_81147.txt
 late 1 All_Files\AS1872To2000#220_17_81147.txt
+1989 1 All_Files\AS1872To2000#220_17_81147.txt
 User’s 1 All_Files\AS1872To2000#220_17_81147.txt
 Manual 1 All_Files\AS1872To2000#220_17_81147.txt
 Organizational 1 All_Files\AS1872To2000#220_17_81147.txt
@@ -832,6 +849,9 @@ General 1 All_Files\AS1872To2000#220_17_81147.txt
 Dynamics 1 All_Files\AS1872To2000#220_17_81147.txt
 Electronics 1 All_Files\AS1872To2000#220_17_81147.txt
 Box 1 All_Files\AS1872To2000#220_17_81147.txt
+92138 1 All_Files\AS1872To2000#220_17_81147.txt
+45433 1 All_Files\AS1872To2000#220_17_81147.txt
+356 1 All_Files\AS1872To2000#220_17_81147.txt
 Resent 1 All_Files\AS1872To2000#220_17_81147.txt
 Aaivity 1 All_Files\AS1872To2000#220_17_81147.txt
 denotcd 1 All_Files\AS1872To2000#220_17_81147.txt
@@ -915,12 +935,14 @@ Wik 1 All_Files\AS1872To2000#220_17_81147.txt
 RESET 1 All_Files\AS1872To2000#220_17_81147.txt
 Remove 1 All_Files\AS1872To2000#220_17_81147.txt
 sct 1 All_Files\AS1872To2000#220_17_81147.txt
+1x1 1 All_Files\AS1872To2000#220_17_81147.txt
 closer 1 All_Files\AS1872To2000#220_17_81147.txt
 finer 1 All_Files\AS1872To2000#220_17_81147.txt
 LAWS 1 All_Files\AS1872To2000#220_17_81147.txt
 change 2 All_Files\AS1872To2000#220_17_81147.txt
 abut 1 All_Files\AS1872To2000#220_17_81147.txt
 emanating 1 All_Files\AS1872To2000#220_17_81147.txt
+TA6 1 All_Files\AS1872To2000#220_2_4788733.txt
 USE 1 All_Files\AS1872To2000#220_2_4788733.txt
 LITERAL 1 All_Files\AS1872To2000#220_2_4788733.txt
 INFORMAlION 1 All_Files\AS1872To2000#220_2_4788733.txt
@@ -931,12 +953,14 @@ Comuand 1 All_Files\AS1872To2000#220_2_4788733.txt
 Control 1 All_Files\AS1872To2000#220_2_4788733.txt
 Department 1 All_Files\AS1872To2000#220_2_4788733.txt
 Code 1 All_Files\AS1872To2000#220_2_4788733.txt
+421 1 All_Files\AS1872To2000#220_2_4788733.txt
 Naval 1 All_Files\AS1872To2000#220_2_4788733.txt
 Ocean 1 All_Files\AS1872To2000#220_2_4788733.txt
 Systems 1 All_Files\AS1872To2000#220_2_4788733.txt
 Center 1 All_Files\AS1872To2000#220_2_4788733.txt
 San 1 All_Files\AS1872To2000#220_2_4788733.txt
 California 1 All_Files\AS1872To2000#220_2_4788733.txt
+92152 1 All_Files\AS1872To2000#220_2_4788733.txt
 Abstract 1 All_Files\AS1872To2000#220_2_4788733.txt
 has 2 All_Files\AS1872To2000#220_2_4788733.txt
 been 2 All_Files\AS1872To2000#220_2_4788733.txt
@@ -1071,12 +1095,15 @@ fault 1 All_Files\AS1872To2000#220_2_4788733.txt
 problems 1 All_Files\AS1872To2000#220_2_4788733.txt
 involving 1 All_Files\AS1872To2000#220_2_4788733.txt
 the 36 All_Files\AS1872To2000#220_3_4049574.txt
+28th 1 All_Files\AS1872To2000#220_3_4049574.txt
 Conlennce 1 All_Files\AS1872To2000#220_3_4049574.txt
 DIclslon 1 All_Files\AS1872To2000#220_3_4049574.txt
 and 20 All_Files\AS1872To2000#220_3_4049574.txt
 Control 1 All_Files\AS1872To2000#220_3_4049574.txt
 Lor 1 All_Files\AS1872To2000#220_3_4049574.txt
 December 1 All_Files\AS1872To2000#220_3_4049574.txt
+1987 2 All_Files\AS1872To2000#220_3_4049574.txt
+TP13 1 All_Files\AS1872To2000#220_3_4049574.txt
 Dynamic 1 All_Files\AS1872To2000#220_3_4049574.txt
 Systems 1 All_Files\AS1872To2000#220_3_4049574.txt
 Analog 2 All_Files\AS1872To2000#220_3_4049574.txt
@@ -1090,6 +1117,7 @@ Princeton 1 All_Files\AS1872To2000#220_3_4049574.txt
 University 1 All_Files\AS1872To2000#220_3_4049574.txt
 New 1 All_Files\AS1872To2000#220_3_4049574.txt
 Jersey 1 All_Files\AS1872To2000#220_3_4049574.txt
+08544 1 All_Files\AS1872To2000#220_3_4049574.txt
 term 1 All_Files\AS1872To2000#220_3_4049574.txt
 evokes 1 All_Files\AS1872To2000#220_3_4049574.txt
 numerous 1 All_Files\AS1872To2000#220_3_4049574.txt
@@ -1344,6 +1372,7 @@ Biological 1 All_Files\AS1872To2000#220_3_4049574.txt
 “The 1 All_Files\AS1872To2000#220_3_4049574.txt
 Mathematics 1 All_Files\AS1872To2000#220_3_4049574.txt
 IEEE 1 All_Files\AS1872To2000#220_3_4049574.txt
+1639 1 All_Files\AS1872To2000#220_3_4049574.txt
 Computationally 1 All_Files\AS1872To2000#220_4_197058.txt
 efficient 3 All_Files\AS1872To2000#220_4_197058.txt
 tracking 10 All_Files\AS1872To2000#220_4_197058.txt
@@ -1366,6 +1395,7 @@ Engineering 1 All_Files\AS1872To2000#220_4_197058.txt
 University 1 All_Files\AS1872To2000#220_4_197058.txt
 Santa 2 All_Files\AS1872To2000#220_4_197058.txt
 Barbara 1 All_Files\AS1872To2000#220_4_197058.txt
+93106 1 All_Files\AS1872To2000#220_4_197058.txt
 Abstract 1 All_Files\AS1872To2000#220_4_197058.txt
 The 64 All_Files\AS1872To2000#220_4_197058.txt
 joint 8 All_Files\AS1872To2000#220_4_197058.txt
@@ -1608,6 +1638,8 @@ distance 2 All_Files\AS1872To2000#220_4_197058.txt
 location 1 All_Files\AS1872To2000#220_4_197058.txt
 less 1 All_Files\AS1872To2000#220_4_197058.txt
 than 2 All_Files\AS1872To2000#220_4_197058.txt
+2152 1 All_Files\AS1872To2000#220_4_197058.txt
+1988 1 All_Files\AS1872To2000#220_4_197058.txt
 IEEE 4 All_Files\AS1872To2000#220_4_197058.txt
 error 1 All_Files\AS1872To2000#220_4_197058.txt
 threshold 2 All_Files\AS1872To2000#220_4_197058.txt
@@ -1649,6 +1681,8 @@ validating 1 All_Files\AS1872To2000#220_4_197058.txt
 detected 1 All_Files\AS1872To2000#220_4_197058.txt
 then 2 All_Files\AS1872To2000#220_4_197058.txt
 shown 3 All_Files\AS1872To2000#220_4_197058.txt
+19831 2 All_Files\AS1872To2000#220_4_197058.txt
+001 1 All_Files\AS1872To2000#220_4_197058.txt
 Computation 3 All_Files\AS1872To2000#220_4_197058.txt
 Define 1 All_Files\AS1872To2000#220_4_197058.txt
 feasible 3 All_Files\AS1872To2000#220_4_197058.txt
@@ -1770,6 +1804,7 @@ strength 1 All_Files\AS1872To2000#220_4_197058.txt
 connection 2 All_Files\AS1872To2000#220_4_197058.txt
 output 4 All_Files\AS1872To2000#220_4_197058.txt
 neuron 4 All_Files\AS1872To2000#220_4_197058.txt
+2153 1 All_Files\AS1872To2000#220_4_197058.txt
 input 5 All_Files\AS1872To2000#220_4_197058.txt
 externally 1 All_Files\AS1872To2000#220_4_197058.txt
 supplied 1 All_Files\AS1872To2000#220_4_197058.txt
@@ -1899,6 +1934,7 @@ side 1 All_Files\AS1872To2000#220_4_197058.txt
 velocity 2 All_Files\AS1872To2000#220_4_197058.txt
 sampling 1 All_Files\AS1872To2000#220_4_197058.txt
 interval 1 All_Files\AS1872To2000#220_4_197058.txt
+2154 1 All_Files\AS1872To2000#220_4_197058.txt
 locity 1 All_Files\AS1872To2000#220_4_197058.txt
 noises 1 All_Files\AS1872To2000#220_4_197058.txt
 variances 1 All_Files\AS1872To2000#220_4_197058.txt
@@ -1922,6 +1958,7 @@ produced 1 All_Files\AS1872To2000#220_4_197058.txt
 point 2 All_Files\AS1872To2000#220_4_197058.txt
 per 1 All_Files\AS1872To2000#220_4_197058.txt
 states 3 All_Files\AS1872To2000#220_4_197058.txt
+19851 2 All_Files\AS1872To2000#220_4_197058.txt
 tanh 1 All_Files\AS1872To2000#220_4_197058.txt
 avoid 1 All_Files\AS1872To2000#220_4_197058.txt
 bias 1 All_Files\AS1872To2000#220_4_197058.txt
@@ -1939,10 +1976,12 @@ stepsize 1 All_Files\AS1872To2000#220_4_197058.txt
 experimentally 2 All_Files\AS1872To2000#220_4_197058.txt
 mined 1 All_Files\AS1872To2000#220_4_197058.txt
 limit 1 All_Files\AS1872To2000#220_4_197058.txt
+100 1 All_Files\AS1872To2000#220_4_197058.txt
 iterations 1 All_Files\AS1872To2000#220_4_197058.txt
 imposed 1 All_Files\AS1872To2000#220_4_197058.txt
 recursive 1 All_Files\AS1872To2000#220_4_197058.txt
 ference 1 All_Files\AS1872To2000#220_4_197058.txt
+100th 1 All_Files\AS1872To2000#220_4_197058.txt
 iterates 1 All_Files\AS1872To2000#220_4_197058.txt
 steady 1 All_Files\AS1872To2000#220_4_197058.txt
 solutions 1 All_Files\AS1872To2000#220_4_197058.txt
@@ -1996,6 +2035,7 @@ Submitted 1 All_Files\AS1872To2000#220_4_197058.txt
 Aerospace 1 All_Files\AS1872To2000#220_4_197058.txt
 Electronic 1 All_Files\AS1872To2000#220_4_197058.txt
 Schematic 1 All_Files\AS1872To2000#220_4_197058.txt
+estimate1 1 All_Files\AS1872To2000#220_4_197058.txt
 rue 1 All_Files\AS1872To2000#220_4_197058.txt
 SIMULATIONS 1 All_Files\AS1872To2000#220_5_47435.txt
 ARCHITECTURE 1 All_Files\AS1872To2000#220_5_47435.txt
@@ -2196,6 +2236,7 @@ used 3 All_Files\AS1872To2000#220_5_47435.txt
 foundation 1 All_Files\AS1872To2000#220_5_47435.txt
 These 4 All_Files\AS1872To2000#220_5_47435.txt
 reside 1 All_Files\AS1872To2000#220_5_47435.txt
+32x32 2 All_Files\AS1872To2000#220_5_47435.txt
 configuration 1 All_Files\AS1872To2000#220_5_47435.txt
 matrix 1 All_Files\AS1872To2000#220_5_47435.txt
 values 5 All_Files\AS1872To2000#220_5_47435.txt
@@ -2229,6 +2270,8 @@ among 3 All_Files\AS1872To2000#220_5_47435.txt
 Any 1 All_Files\AS1872To2000#220_5_47435.txt
 placed 1 All_Files\AS1872To2000#220_5_47435.txt
 all 12 All_Files\AS1872To2000#220_5_47435.txt
+311 1 All_Files\AS1872To2000#220_5_47435.txt
+1988 1 All_Files\AS1872To2000#220_5_47435.txt
 IEEE 1 All_Files\AS1872To2000#220_5_47435.txt
 same 8 All_Files\AS1872To2000#220_5_47435.txt
 highlighting 13 All_Files\AS1872To2000#220_5_47435.txt
@@ -2425,6 +2468,7 @@ accept 1 All_Files\AS1872To2000#220_5_47435.txt
 andor 1 All_Files\AS1872To2000#220_5_47435.txt
 broadcast 1 All_Files\AS1872To2000#220_5_47435.txt
 its 5 All_Files\AS1872To2000#220_5_47435.txt
+312 1 All_Files\AS1872To2000#220_5_47435.txt
 central 2 All_Files\AS1872To2000#220_5_47435.txt
 relay 1 All_Files\AS1872To2000#220_5_47435.txt
 station 1 All_Files\AS1872To2000#220_5_47435.txt
@@ -2598,6 +2642,7 @@ tion 1 All_Files\AS1872To2000#220_5_47435.txt
 ‘s’ 1 All_Files\AS1872To2000#220_5_47435.txt
 nifying 1 All_Files\AS1872To2000#220_5_47435.txt
 token 3 All_Files\AS1872To2000#220_5_47435.txt
+313 1 All_Files\AS1872To2000#220_5_47435.txt
 constructed 1 All_Files\AS1872To2000#220_5_47435.txt
 analogous 1 All_Files\AS1872To2000#220_5_47435.txt
 ise 1 All_Files\AS1872To2000#220_5_47435.txt
@@ -2611,9 +2656,12 @@ consistent 2 All_Files\AS1872To2000#220_5_47435.txt
 OLAP 1 All_Files\AS1872To2000#220_5_47435.txt
 SUBC 1 All_Files\AS1872To2000#220_5_47435.txt
 subclass 1 All_Files\AS1872To2000#220_5_47435.txt
+2ND 2 All_Files\AS1872To2000#220_5_47435.txt
+3RD 2 All_Files\AS1872To2000#220_5_47435.txt
 None 1 All_Files\AS1872To2000#220_5_47435.txt
 five 1 All_Files\AS1872To2000#220_5_47435.txt
 dedicated 1 All_Files\AS1872To2000#220_5_47435.txt
+1ST 1 All_Files\AS1872To2000#220_5_47435.txt
 overlapping 1 All_Files\AS1872To2000#220_5_47435.txt
 analogously 1 All_Files\AS1872To2000#220_5_47435.txt
 hardwired 2 All_Files\AS1872To2000#220_5_47435.txt
@@ -2680,6 +2728,7 @@ both 1 All_Files\AS1872To2000#220_5_47435.txt
 traditional 1 All_Files\AS1872To2000#220_5_47435.txt
 marker 1 All_Files\AS1872To2000#220_5_47435.txt
 passing 1 All_Files\AS1872To2000#220_5_47435.txt
+314 1 All_Files\AS1872To2000#220_5_47435.txt
 Results 1 All_Files\AS1872To2000#220_5_47435.txt
 Elapsed 1 All_Files\AS1872To2000#220_5_47435.txt
 depends 1 All_Files\AS1872To2000#220_5_47435.txt
@@ -2690,11 +2739,13 @@ about 3 All_Files\AS1872To2000#220_5_47435.txt
 logically 1 All_Files\AS1872To2000#220_5_47435.txt
 parameter 1 All_Files\AS1872To2000#220_5_47435.txt
 distance 3 All_Files\AS1872To2000#220_5_47435.txt
+50mm 1 All_Files\AS1872To2000#220_5_47435.txt
 long 4 All_Files\AS1872To2000#220_5_47435.txt
 transmission 1 All_Files\AS1872To2000#220_5_47435.txt
 basic 2 All_Files\AS1872To2000#220_5_47435.txt
 lOms 1 All_Files\AS1872To2000#220_5_47435.txt
 overhead 1 All_Files\AS1872To2000#220_5_47435.txt
+5ms 1 All_Files\AS1872To2000#220_5_47435.txt
 parameters 1 All_Files\AS1872To2000#220_5_47435.txt
 appeal 1 All_Files\AS1872To2000#220_5_47435.txt
 fast 1 All_Files\AS1872To2000#220_5_47435.txt
@@ -2715,8 +2766,14 @@ observed 1 All_Files\AS1872To2000#220_5_47435.txt
 twelve 1 All_Files\AS1872To2000#220_5_47435.txt
 conducted 1 All_Files\AS1872To2000#220_5_47435.txt
 per 1 All_Files\AS1872To2000#220_5_47435.txt
+2526ms 1 All_Files\AS1872To2000#220_5_47435.txt
 phase 1 All_Files\AS1872To2000#220_5_47435.txt
+98ms 1 All_Files\AS1872To2000#220_5_47435.txt
 execution 5 All_Files\AS1872To2000#220_5_47435.txt
+76ms 1 All_Files\AS1872To2000#220_5_47435.txt
+905111s 1 All_Files\AS1872To2000#220_5_47435.txt
+602ms 1 All_Files\AS1872To2000#220_5_47435.txt
+18Oms 1 All_Files\AS1872To2000#220_5_47435.txt
 seconds 3 All_Files\AS1872To2000#220_5_47435.txt
 seems 1 All_Files\AS1872To2000#220_5_47435.txt
 psychologically 1 All_Files\AS1872To2000#220_5_47435.txt
@@ -2758,6 +2815,7 @@ through 1 All_Files\AS1872To2000#220_5_47435.txt
 MPP 1 All_Files\AS1872To2000#220_5_47435.txt
 Working 1 All_Files\AS1872To2000#220_5_47435.txt
 REFERENCES 1 All_Files\AS1872To2000#220_5_47435.txt
+5th 1 All_Files\AS1872To2000#220_5_47435.txt
 Science 3 All_Files\AS1872To2000#220_5_47435.txt
 Cognition 2 All_Files\AS1872To2000#220_5_47435.txt
 Brain 2 All_Files\AS1872To2000#220_5_47435.txt
@@ -2772,6 +2830,7 @@ Frontiers 1 All_Files\AS1872To2000#220_5_47435.txt
 Scientific 1 All_Files\AS1872To2000#220_5_47435.txt
 Conference 1 All_Files\AS1872To2000#220_5_47435.txt
 Publication 1 All_Files\AS1872To2000#220_5_47435.txt
+10th 2 All_Files\AS1872To2000#220_5_47435.txt
 Annual 2 All_Files\AS1872To2000#220_5_47435.txt
 Lawrence 2 All_Files\AS1872To2000#220_5_47435.txt
 Pollack 2 All_Files\AS1872To2000#220_5_47435.txt
@@ -2792,6 +2851,7 @@ possibility 1 All_Files\AS1872To2000#220_5_47435.txt
 massive 1 All_Files\AS1872To2000#220_5_47435.txt
 parallelism 1 All_Files\AS1872To2000#220_5_47435.txt
 Quaterly 1 All_Files\AS1872To2000#220_5_47435.txt
+315 1 All_Files\AS1872To2000#220_5_47435.txt
 International 1 All_Files\AS1872To2000#220_6_13266.txt
 Workshop 1 All_Files\AS1872To2000#220_6_13266.txt
 Artificial 2 All_Files\AS1872To2000#220_6_13266.txt
@@ -2799,6 +2859,7 @@ Intelligence 2 All_Files\AS1872To2000#220_6_13266.txt
 for 36 All_Files\AS1872To2000#220_6_13266.txt
 Industrial 1 All_Files\AS1872To2000#220_6_13266.txt
 Applications 1 All_Files\AS1872To2000#220_6_13266.txt
+1988 2 All_Files\AS1872To2000#220_6_13266.txt
 CAUSAL 1 All_Files\AS1872To2000#220_6_13266.txt
 REASONING 1 All_Files\AS1872To2000#220_6_13266.txt
 DIAGNOSIS 1 All_Files\AS1872To2000#220_6_13266.txt
@@ -2809,6 +2870,8 @@ Marietta 1 All_Files\AS1872To2000#220_6_13266.txt
 Astronautics 1 All_Files\AS1872To2000#220_6_13266.txt
 Group 1 All_Files\AS1872To2000#220_6_13266.txt
 Box 1 All_Files\AS1872To2000#220_6_13266.txt
+4443 1 All_Files\AS1872To2000#220_6_13266.txt
+80201 1 All_Files\AS1872To2000#220_6_13266.txt
 USA 1 All_Files\AS1872To2000#220_6_13266.txt
 ABSTRACT 1 All_Files\AS1872To2000#220_6_13266.txt
 provides 3 All_Files\AS1872To2000#220_6_13266.txt
@@ -3385,6 +3448,7 @@ The 2 All_Files\AS1872To2000#220_7_118389.txt
 Pennsylvania 1 All_Files\AS1872To2000#220_7_118389.txt
 State 1 All_Files\AS1872To2000#220_7_118389.txt
 University 3 All_Files\AS1872To2000#220_7_118389.txt
+16802 1 All_Files\AS1872To2000#220_7_118389.txt
 Outline 1 All_Files\AS1872To2000#220_7_118389.txt
 Theory 1 All_Files\AS1872To2000#220_7_118389.txt
 Massively 1 All_Files\AS1872To2000#220_7_118389.txt
@@ -3610,6 +3674,7 @@ Engineering 1 All_Files\AS1872To2000#220_8_36285.txt
 Florida 4 All_Files\AS1872To2000#220_8_36285.txt
 Atlantic 1 All_Files\AS1872To2000#220_8_36285.txt
 Boca 1 All_Files\AS1872To2000#220_8_36285.txt
+33431 1 All_Files\AS1872To2000#220_8_36285.txt
 Abstract 1 All_Files\AS1872To2000#220_8_36285.txt
 The 24 All_Files\AS1872To2000#220_8_36285.txt
 integration 2 All_Files\AS1872To2000#220_8_36285.txt
@@ -3668,6 +3733,7 @@ models 4 All_Files\AS1872To2000#220_8_36285.txt
 were 1 All_Files\AS1872To2000#220_8_36285.txt
 developed 2 All_Files\AS1872To2000#220_8_36285.txt
 relational 3 All_Files\AS1872To2000#220_8_36285.txt
+Grif761 1 All_Files\AS1872To2000#220_8_36285.txt
 have 12 All_Files\AS1872To2000#220_8_36285.txt
 much 2 All_Files\AS1872To2000#220_8_36285.txt
 richer 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -3691,6 +3757,7 @@ very 2 All_Files\AS1872To2000#220_8_36285.txt
 few 3 All_Files\AS1872To2000#220_8_36285.txt
 been 6 All_Files\AS1872To2000#220_8_36285.txt
 proposed 2 All_Files\AS1872To2000#220_8_36285.txt
+Rabi881 1 All_Files\AS1872To2000#220_8_36285.txt
 related 1 All_Files\AS1872To2000#220_8_36285.txt
 study 1 All_Files\AS1872To2000#220_8_36285.txt
 considers 2 All_Files\AS1872To2000#220_8_36285.txt
@@ -3719,6 +3786,7 @@ from 12 All_Files\AS1872To2000#220_8_36285.txt
 Ben 1 All_Files\AS1872To2000#220_8_36285.txt
 Gurion 1 All_Files\AS1872To2000#220_8_36285.txt
 Israel 1 All_Files\AS1872To2000#220_8_36285.txt
+1989 1 All_Files\AS1872To2000#220_8_36285.txt
 IEEE 1 All_Files\AS1872To2000#220_8_36285.txt
 All 1 All_Files\AS1872To2000#220_8_36285.txt
 manipulation 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4018,6 +4086,7 @@ user’s 2 All_Files\AS1872To2000#220_8_36285.txt
 associated 2 All_Files\AS1872To2000#220_8_36285.txt
 within 2 All_Files\AS1872To2000#220_8_36285.txt
 SCl 1 All_Files\AS1872To2000#220_8_36285.txt
+SC1 2 All_Files\AS1872To2000#220_8_36285.txt
 boundary 1 All_Files\AS1872To2000#220_8_36285.txt
 constructing 1 All_Files\AS1872To2000#220_8_36285.txt
 ined 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4169,9 +4238,12 @@ end 9 All_Files\AS1872To2000#220_8_36285.txt
 else 3 All_Files\AS1872To2000#220_8_36285.txt
 ana 4 All_Files\AS1872To2000#220_8_36285.txt
 uhere 1 All_Files\AS1872To2000#220_8_36285.txt
+AT2 9 All_Files\AS1872To2000#220_8_36285.txt
 fATi 1 All_Files\AS1872To2000#220_8_36285.txt
+andAT2 1 All_Files\AS1872To2000#220_8_36285.txt
 aufhoruea 1 All_Files\AS1872To2000#220_8_36285.txt
 check 2 All_Files\AS1872To2000#220_8_36285.txt
+son101 1 All_Files\AS1872To2000#220_8_36285.txt
 null 1 All_Files\AS1872To2000#220_8_36285.txt
 thenreturn 1 All_Files\AS1872To2000#220_8_36285.txt
 lhere 3 All_Files\AS1872To2000#220_8_36285.txt
@@ -4185,6 +4257,7 @@ atmnuter 1 All_Files\AS1872To2000#220_8_36285.txt
 destroy 1 All_Files\AS1872To2000#220_8_36285.txt
 original 1 All_Files\AS1872To2000#220_8_36285.txt
 ira 1 All_Files\AS1872To2000#220_8_36285.txt
+A02ATR 1 All_Files\AS1872To2000#220_8_36285.txt
 lhar 1 All_Files\AS1872To2000#220_8_36285.txt
 AZA 2 All_Files\AS1872To2000#220_8_36285.txt
 wnere 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4196,6 +4269,7 @@ downwaror 1 All_Files\AS1872To2000#220_8_36285.txt
 Nncludea 1 All_Files\AS1872To2000#220_8_36285.txt
 fer 1 All_Files\AS1872To2000#220_8_36285.txt
 qesu 1 All_Files\AS1872To2000#220_8_36285.txt
+OAT2 1 All_Files\AS1872To2000#220_8_36285.txt
 tnlscareO 1 All_Files\AS1872To2000#220_8_36285.txt
 reslricriie 1 All_Files\AS1872To2000#220_8_36285.txt
 onlea 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4207,9 +4281,11 @@ GOWN 1 All_Files\AS1872To2000#220_8_36285.txt
 rlag 1 All_Files\AS1872To2000#220_8_36285.txt
 ATTRIOI 1 All_Files\AS1872To2000#220_8_36285.txt
 rne 1 All_Files\AS1872To2000#220_8_36285.txt
+re1 1 All_Files\AS1872To2000#220_8_36285.txt
 names 1 All_Files\AS1872To2000#220_8_36285.txt
 neea 1 All_Files\AS1872To2000#220_8_36285.txt
 aovrn 1 All_Files\AS1872To2000#220_8_36285.txt
+0111 1 All_Files\AS1872To2000#220_8_36285.txt
 nave 1 All_Files\AS1872To2000#220_8_36285.txt
 rignr 1 All_Files\AS1872To2000#220_8_36285.txt
 aodirionai 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4229,15 +4305,18 @@ works 1 All_Files\AS1872To2000#220_8_36285.txt
 four 1 All_Files\AS1872To2000#220_8_36285.txt
 cases 1 All_Files\AS1872To2000#220_8_36285.txt
 gives 1 All_Files\AS1872To2000#220_8_36285.txt
+Case2 1 All_Files\AS1872To2000#220_8_36285.txt
 updates 2 All_Files\AS1872To2000#220_8_36285.txt
 removing 1 All_Files\AS1872To2000#220_8_36285.txt
 reference 1 All_Files\AS1872To2000#220_8_36285.txt
 obviously 1 All_Files\AS1872To2000#220_8_36285.txt
 includes 2 All_Files\AS1872To2000#220_8_36285.txt
 allows 3 All_Files\AS1872To2000#220_8_36285.txt
+Case3 1 All_Files\AS1872To2000#220_8_36285.txt
 goes 1 All_Files\AS1872To2000#220_8_36285.txt
 downwards 1 All_Files\AS1872To2000#220_8_36285.txt
 zudents 1 All_Files\AS1872To2000#220_8_36285.txt
+Case4 1 All_Files\AS1872To2000#220_8_36285.txt
 Extensions 1 All_Files\AS1872To2000#220_8_36285.txt
 instead 1 All_Files\AS1872To2000#220_8_36285.txt
 changes 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4279,6 +4358,7 @@ started 1 All_Files\AS1872To2000#220_8_36285.txt
 reduction 1 All_Files\AS1872To2000#220_8_36285.txt
 requirements 1 All_Files\AS1872To2000#220_8_36285.txt
 orders 1 All_Files\AS1872To2000#220_8_36285.txt
+Sand881 1 All_Files\AS1872To2000#220_8_36285.txt
 Acknowledaments 1 All_Files\AS1872To2000#220_8_36285.txt
 rom 1 All_Files\AS1872To2000#220_8_36285.txt
 Jie 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4311,6 +4391,7 @@ ics 1 All_Files\AS1872To2000#220_8_36285.txt
 implementat 1 All_Files\AS1872To2000#220_8_36285.txt
 evolut 1 All_Files\AS1872To2000#220_8_36285.txt
 Proc 4 All_Files\AS1872To2000#220_8_36285.txt
+1987 2 All_Files\AS1872To2000#220_8_36285.txt
 SlGMODlntl 1 All_Files\AS1872To2000#220_8_36285.txt
 Conf 4 All_Files\AS1872To2000#220_8_36285.txt
 Dept 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4318,14 +4399,19 @@ Defense 1 All_Files\AS1872To2000#220_8_36285.txt
 Trusted 1 All_Files\AS1872To2000#220_8_36285.txt
 Evaluatron 1 All_Files\AS1872To2000#220_8_36285.txt
 DoD 1 All_Files\AS1872To2000#220_8_36285.txt
+5200 1 All_Files\AS1872To2000#220_8_36285.txt
 December 2 All_Files\AS1872To2000#220_8_36285.txt
+1985 2 All_Files\AS1872To2000#220_8_36285.txt
 Int 2 All_Files\AS1872To2000#220_8_36285.txt
 Large 1 All_Files\AS1872To2000#220_8_36285.txt
 February 1 All_Files\AS1872To2000#220_8_36285.txt
+1981 1 All_Files\AS1872To2000#220_8_36285.txt
 preparation 1 All_Files\AS1872To2000#220_8_36285.txt
 Gri 1 All_Files\AS1872To2000#220_8_36285.txt
 ths 1 All_Files\AS1872To2000#220_8_36285.txt
 ACM 2 All_Files\AS1872To2000#220_8_36285.txt
+H881 1 All_Files\AS1872To2000#220_8_36285.txt
+bi871 1 All_Files\AS1872To2000#220_8_36285.txt
 Guo 1 All_Files\AS1872To2000#220_8_36285.txt
 departure 1 All_Files\AS1872To2000#220_8_36285.txt
 Mof 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4339,6 +4425,7 @@ ACA 1 All_Files\AS1872To2000#220_8_36285.txt
 October 1 All_Files\AS1872To2000#220_8_36285.txt
 suthorization 1 All_Files\AS1872To2000#220_8_36285.txt
 November 2 All_Files\AS1872To2000#220_8_36285.txt
+1988 4 All_Files\AS1872To2000#220_8_36285.txt
 NTree 1 All_Files\AS1872To2000#220_8_36285.txt
 two 1 All_Files\AS1872To2000#220_8_36285.txt
 Trans 1 All_Files\AS1872To2000#220_8_36285.txt
@@ -4372,12 +4459,15 @@ FAULT 1 All_Files\AS1872To2000#220_9_118306.txt
 WXJRAL 1 All_Files\AS1872To2000#220_9_118306.txt
 Kidwell 1 All_Files\AS1872To2000#220_9_118306.txt
 ATBT 1 All_Files\AS1872To2000#220_9_118306.txt
+Eel1 1 All_Files\AS1872To2000#220_9_118306.txt
 Labora 1 All_Files\AS1872To2000#220_9_118306.txt
 tor 1 All_Files\AS1872To2000#220_9_118306.txt
 ies 1 All_Files\AS1872To2000#220_9_118306.txt
 Room 1 All_Files\AS1872To2000#220_9_118306.txt
+2000 1 All_Files\AS1872To2000#220_9_118306.txt
 Narrenvi 1 All_Files\AS1872To2000#220_9_118306.txt
 Uapervi 1 All_Files\AS1872To2000#220_9_118306.txt
+69566 1 All_Files\AS1872To2000#220_9_118306.txt
 Abstract 4 All_Files\AS1872To2000#220_9_118306.txt
 Bra 3 All_Files\AS1872To2000#220_9_118306.txt
 inchi 3 All_Files\AS1872To2000#220_9_118306.txt
@@ -4475,11 +4565,13 @@ Research 1 All_Files\AS1872To2000#220_9_118306.txt
 Park 1 All_Files\AS1872To2000#220_9_118306.txt
 Mail 1 All_Files\AS1872To2000#220_9_118306.txt
 Stop 1 All_Files\AS1872To2000#220_9_118306.txt
+35807 1 All_Files\AS1872To2000#220_9_118306.txt
 University 2 All_Files\AS1872To2000#220_9_118306.txt
 Alabama 2 All_Files\AS1872To2000#220_9_118306.txt
 Huntsville 2 All_Files\AS1872To2000#220_9_118306.txt
 Department 1 All_Files\AS1872To2000#220_9_118306.txt
 Physics 1 All_Files\AS1872To2000#220_9_118306.txt
+35899 2 All_Files\AS1872To2000#220_9_118306.txt
 John 1 All_Files\AS1872To2000#220_9_118306.txt
 Caulfield 1 All_Files\AS1872To2000#220_9_118306.txt
 Center 1 All_Files\AS1872To2000#220_9_118306.txt
@@ -4542,9 +4634,11 @@ Harston 1 All_Files\AS1872To2000#220_9_118306.txt
 Computer 1 All_Files\AS1872To2000#220_9_118306.txt
 Appllcatlons 1 All_Files\AS1872To2000#220_9_118306.txt
 Servlce 1 All_Files\AS1872To2000#220_9_118306.txt
+6207 1 All_Files\AS1872To2000#220_9_118306.txt
 Forest 1 All_Files\AS1872To2000#220_9_118306.txt
 TralI 1 All_Files\AS1872To2000#220_9_118306.txt
 Slgnal 1 All_Files\AS1872To2000#220_9_118306.txt
+37377 1 All_Files\AS1872To2000#220_9_118306.txt
 assoc 1 All_Files\AS1872To2000#220_9_118306.txt
 was 4 All_Files\AS1872To2000#220_9_118306.txt
 enhanced 1 All_Files\AS1872To2000#220_9_118306.txt
@@ -4598,6 +4692,7 @@ Computer 2 All_Files\AS1872To2000#220_10_40286.txt
 Science 1 All_Files\AS1872To2000#220_10_40286.txt
 Engineering 1 All_Files\AS1872To2000#220_10_40286.txt
 Ohio 1 All_Files\AS1872To2000#220_10_40286.txt
+45435 1 All_Files\AS1872To2000#220_10_40286.txt
 ABSTRACT 1 All_Files\AS1872To2000#220_10_40286.txt
 advantage 2 All_Files\AS1872To2000#220_10_40286.txt
 over 2 All_Files\AS1872To2000#220_10_40286.txt
@@ -4752,7 +4847,14 @@ lengths 3 All_Files\AS1872To2000#220_10_40286.txt
 members 2 All_Files\AS1872To2000#220_10_40286.txt
 their 3 All_Files\AS1872To2000#220_10_40286.txt
 stiffnesses 2 All_Files\AS1872To2000#220_10_40286.txt
+695 1 All_Files\AS1872To2000#220_10_40286.txt
+1989 1 All_Files\AS1872To2000#220_10_40286.txt
 lEEE 1 All_Files\AS1872To2000#220_10_40286.txt
+6s1e 1 All_Files\AS1872To2000#220_10_40286.txt
+zS1e2 1 All_Files\AS1872To2000#220_10_40286.txt
+2s412 1 All_Files\AS1872To2000#220_10_40286.txt
+2s2 1 All_Files\AS1872To2000#220_10_40286.txt
+zS2 1 All_Files\AS1872To2000#220_10_40286.txt
 Symmetric 1 All_Files\AS1872To2000#220_10_40286.txt
 Stiffness 1 All_Files\AS1872To2000#220_10_40286.txt
 matrix 3 All_Files\AS1872To2000#220_10_40286.txt
@@ -4815,6 +4917,7 @@ handle 1 All_Files\AS1872To2000#220_10_40286.txt
 fall 1 All_Files\AS1872To2000#220_10_40286.txt
 between 4 All_Files\AS1872To2000#220_10_40286.txt
 training 4 All_Files\AS1872To2000#220_10_40286.txt
+696 1 All_Files\AS1872To2000#220_10_40286.txt
 rms 3 All_Files\AS1872To2000#220_10_40286.txt
 Illustrates 1 All_Files\AS1872To2000#220_10_40286.txt
 SAMPLE 1 All_Files\AS1872To2000#220_10_40286.txt
@@ -4951,6 +5054,8 @@ bar 1 All_Files\AS1872To2000#220_10_40286.txt
 Interconnected 1 All_Files\AS1872To2000#220_10_40286.txt
 Journal 1 All_Files\AS1872To2000#220_10_40286.txt
 lel 1 All_Files\AS1872To2000#220_10_40286.txt
+697 1 All_Files\AS1872To2000#220_10_40286.txt
+HETER0 1 All_Files\AS1872To2000#220_11_71378.txt
 ASSOCIATIVE 2 All_Files\AS1872To2000#220_11_71378.txt
 NEURAL 1 All_Files\AS1872To2000#220_11_71378.txt
 NETWORK 1 All_Files\AS1872To2000#220_11_71378.txt
@@ -4969,6 +5074,7 @@ The 26 All_Files\AS1872To2000#220_11_71378.txt
 Pennsylvania 1 All_Files\AS1872To2000#220_11_71378.txt
 State 1 All_Files\AS1872To2000#220_11_71378.txt
 University 2 All_Files\AS1872To2000#220_11_71378.txt
+16802 1 All_Files\AS1872To2000#220_11_71378.txt
 ABSTRACT 1 All_Files\AS1872To2000#220_11_71378.txt
 present 2 All_Files\AS1872To2000#220_11_71378.txt
 Association 2 All_Files\AS1872To2000#220_11_71378.txt
@@ -5151,7 +5257,9 @@ spond 1 All_Files\AS1872To2000#220_11_71378.txt
 desired 3 All_Files\AS1872To2000#220_11_71378.txt
 output 16 All_Files\AS1872To2000#220_11_71378.txt
 subspaces 2 All_Files\AS1872To2000#220_11_71378.txt
+I11 3 All_Files\AS1872To2000#220_11_71378.txt
 while 4 All_Files\AS1872To2000#220_11_71378.txt
+VI1 2 All_Files\AS1872To2000#220_11_71378.txt
 area 11 All_Files\AS1872To2000#220_11_71378.txt
 rest 1 All_Files\AS1872To2000#220_11_71378.txt
 can 39 All_Files\AS1872To2000#220_11_71378.txt
@@ -5161,6 +5269,7 @@ Similar 1 All_Files\AS1872To2000#220_11_71378.txt
 illustrated 4 All_Files\AS1872To2000#220_11_71378.txt
 expressed 2 All_Files\AS1872To2000#220_11_71378.txt
 functions 1 All_Files\AS1872To2000#220_11_71378.txt
+658 1 All_Files\AS1872To2000#220_11_71378.txt
 operation 1 All_Files\AS1872To2000#220_11_71378.txt
 subspace 3 All_Files\AS1872To2000#220_11_71378.txt
 also 4 All_Files\AS1872To2000#220_11_71378.txt
@@ -5190,6 +5299,7 @@ lustrate 1 All_Files\AS1872To2000#220_11_71378.txt
 fur 1 All_Files\AS1872To2000#220_11_71378.txt
 ther 2 All_Files\AS1872To2000#220_11_71378.txt
 construction 1 All_Files\AS1872To2000#220_11_71378.txt
+2x2 2 All_Files\AS1872To2000#220_11_71378.txt
 array 13 All_Files\AS1872To2000#220_11_71378.txt
 shown 10 All_Files\AS1872To2000#220_11_71378.txt
 Table 1 All_Files\AS1872To2000#220_11_71378.txt
@@ -5207,6 +5317,8 @@ one 4 All_Files\AS1872To2000#220_11_71378.txt
 sponds 1 All_Files\AS1872To2000#220_11_71378.txt
 excites 2 All_Files\AS1872To2000#220_11_71378.txt
 only 5 All_Files\AS1872To2000#220_11_71378.txt
+1st 4 All_Files\AS1872To2000#220_11_71378.txt
+2nd 7 All_Files\AS1872To2000#220_11_71378.txt
 anb 1 All_Files\AS1872To2000#220_11_71378.txt
 exci 2 All_Files\AS1872To2000#220_11_71378.txt
 tes 2 All_Files\AS1872To2000#220_11_71378.txt
@@ -5232,8 +5344,10 @@ indicates 1 All_Files\AS1872To2000#220_11_71378.txt
 exc 2 All_Files\AS1872To2000#220_11_71378.txt
 ouput 2 All_Files\AS1872To2000#220_11_71378.txt
 another 1 All_Files\AS1872To2000#220_11_71378.txt
+3rd 1 All_Files\AS1872To2000#220_11_71378.txt
 elememts 1 All_Files\AS1872To2000#220_11_71378.txt
 element 2 All_Files\AS1872To2000#220_11_71378.txt
+4th 1 All_Files\AS1872To2000#220_11_71378.txt
 order 1 All_Files\AS1872To2000#220_11_71378.txt
 simplify 1 All_Files\AS1872To2000#220_11_71378.txt
 algebraic 1 All_Files\AS1872To2000#220_11_71378.txt
@@ -5241,6 +5355,7 @@ equiva 1 All_Files\AS1872To2000#220_11_71378.txt
 len 1 All_Files\AS1872To2000#220_11_71378.txt
 lows 1 All_Files\AS1872To2000#220_11_71378.txt
 examining 1 All_Files\AS1872To2000#220_11_71378.txt
+111 1 All_Files\AS1872To2000#220_11_71378.txt
 stand 1 All_Files\AS1872To2000#220_11_71378.txt
 logic 2 All_Files\AS1872To2000#220_11_71378.txt
 When 2 All_Files\AS1872To2000#220_11_71378.txt
@@ -5269,6 +5384,7 @@ view 1 All_Files\AS1872To2000#220_11_71378.txt
 occupy 1 All_Files\AS1872To2000#220_11_71378.txt
 pos 3 All_Files\AS1872To2000#220_11_71378.txt
 total 1 All_Files\AS1872To2000#220_11_71378.txt
+659 1 All_Files\AS1872To2000#220_11_71378.txt
 Fig 1 All_Files\AS1872To2000#220_11_71378.txt
 ionsh 1 All_Files\AS1872To2000#220_11_71378.txt
 ree 1 All_Files\AS1872To2000#220_11_71378.txt
@@ -5338,6 +5454,7 @@ losely 1 All_Files\AS1872To2000#220_11_71378.txt
 inequalit 1 All_Files\AS1872To2000#220_11_71378.txt
 longer 1 All_Files\AS1872To2000#220_11_71378.txt
 comparable 1 All_Files\AS1872To2000#220_11_71378.txt
+660 1 All_Files\AS1872To2000#220_11_71378.txt
 easily 2 All_Files\AS1872To2000#220_11_71378.txt
 neu 2 All_Files\AS1872To2000#220_11_71378.txt
 wou 1 All_Files\AS1872To2000#220_11_71378.txt
@@ -5400,6 +5517,7 @@ size 1 All_Files\AS1872To2000#220_11_71378.txt
 imple 2 All_Files\AS1872To2000#220_11_71378.txt
 build 2 All_Files\AS1872To2000#220_11_71378.txt
 aboutlOOxlOO 1 All_Files\AS1872To2000#220_11_71378.txt
+661 1 All_Files\AS1872To2000#220_11_71378.txt
 simulated 1 All_Files\AS1872To2000#220_11_71378.txt
 generated 1 All_Files\AS1872To2000#220_11_71378.txt
 processing 1 All_Files\AS1872To2000#220_11_71378.txt
@@ -5455,6 +5573,7 @@ possible 1 All_Files\AS1872To2000#220_11_71378.txt
 parallel 4 All_Files\AS1872To2000#220_11_71378.txt
 opt 2 All_Files\AS1872To2000#220_11_71378.txt
 ical 2 All_Files\AS1872To2000#220_11_71378.txt
+32x32 2 All_Files\AS1872To2000#220_11_71378.txt
 low 1 All_Files\AS1872To2000#220_11_71378.txt
 contrast 2 All_Files\AS1872To2000#220_11_71378.txt
 lenslet 4 All_Files\AS1872To2000#220_11_71378.txt
@@ -5514,6 +5633,7 @@ proposed 3 All_Files\AS1872To2000#220_11_71378.txt
 LCTV 1 All_Files\AS1872To2000#220_11_71378.txt
 negative 2 All_Files\AS1872To2000#220_11_71378.txt
 reconstruction 1 All_Files\AS1872To2000#220_11_71378.txt
+662 1 All_Files\AS1872To2000#220_11_71378.txt
 requirement 1 All_Files\AS1872To2000#220_11_71378.txt
 diameter 1 All_Files\AS1872To2000#220_11_71378.txt
 provide 1 All_Files\AS1872To2000#220_11_71378.txt
@@ -5600,6 +5720,7 @@ Physical 1 All_Files\AS1872To2000#220_11_71378.txt
 Emergen 1 All_Files\AS1872To2000#220_11_71378.txt
 Computa 1 All_Files\AS1872To2000#220_11_71378.txt
 iona 1 All_Files\AS1872To2000#220_11_71378.txt
+2554 1 All_Files\AS1872To2000#220_11_71378.txt
 Interactive 1 All_Files\AS1872To2000#220_11_71378.txt
 Activation 1 All_Files\AS1872To2000#220_11_71378.txt
 Context 1 All_Files\AS1872To2000#220_11_71378.txt
@@ -5622,7 +5743,10 @@ Academic 1 All_Files\AS1872To2000#220_11_71378.txt
 Controlled 1 All_Files\AS1872To2000#220_11_71378.txt
 Nonlinearity 1 All_Files\AS1872To2000#220_11_71378.txt
 Correlation 1 All_Files\AS1872To2000#220_11_71378.txt
+482 1 All_Files\AS1872To2000#220_11_71378.txt
 Comput 1 All_Files\AS1872To2000#220_11_71378.txt
+663 1 All_Files\AS1872To2000#220_11_71378.txt
+WPI2 1 All_Files\AS1872To2000#220_12_4790318.txt
 Decilsonmaking 1 All_Files\AS1872To2000#220_12_4790318.txt
 with 19 All_Files\AS1872To2000#220_12_4790318.txt
 Boftmunn 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -5633,10 +5757,12 @@ Compu 1 All_Files\AS1872To2000#220_12_4790318.txt
 Engieern 1 All_Files\AS1872To2000#220_12_4790318.txt
 Drexel 1 All_Files\AS1872To2000#220_12_4790318.txt
 Philadelph 1 All_Files\AS1872To2000#220_12_4790318.txt
+19104 1 All_Files\AS1872To2000#220_12_4790318.txt
 Department 1 All_Files\AS1872To2000#220_12_4790318.txt
 ring 1 All_Files\AS1872To2000#220_12_4790318.txt
 Princeton 1 All_Files\AS1872To2000#220_12_4790318.txt
 Priceton 1 All_Files\AS1872To2000#220_12_4790318.txt
+08544 1 All_Files\AS1872To2000#220_12_4790318.txt
 The 39 All_Files\AS1872To2000#220_12_4790318.txt
 Boltzmann 4 All_Files\AS1872To2000#220_12_4790318.txt
 has 5 All_Files\AS1872To2000#220_12_4790318.txt
@@ -5970,6 +6096,7 @@ phases 1 All_Files\AS1872To2000#220_12_4790318.txt
 leaning 1 All_Files\AS1872To2000#220_12_4790318.txt
 hase 1 All_Files\AS1872To2000#220_12_4790318.txt
 parameters 3 All_Files\AS1872To2000#220_12_4790318.txt
+wi1 1 All_Files\AS1872To2000#220_12_4790318.txt
 andri 1 All_Files\AS1872To2000#220_12_4790318.txt
 determination 2 All_Files\AS1872To2000#220_12_4790318.txt
 achieved 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -5987,6 +6114,7 @@ assignment 3 All_Files\AS1872To2000#220_12_4790318.txt
 paraieter 1 All_Files\AS1872To2000#220_12_4790318.txt
 aLoduction 1 All_Files\AS1872To2000#220_12_4790318.txt
 ghase 1 All_Files\AS1872To2000#220_12_4790318.txt
+902 1 All_Files\AS1872To2000#220_12_4790318.txt
 performed 1 All_Files\AS1872To2000#220_12_4790318.txt
 sycrnuly 1 All_Files\AS1872To2000#220_12_4790318.txt
 neurons 3 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6034,6 +6162,7 @@ related 2 All_Files\AS1872To2000#220_12_4790318.txt
 snyw 1 All_Files\AS1872To2000#220_12_4790318.txt
 whch 1 All_Files\AS1872To2000#220_12_4790318.txt
 descrbed 1 All_Files\AS1872To2000#220_12_4790318.txt
+ES2 1 All_Files\AS1872To2000#220_12_4790318.txt
 retwork 1 All_Files\AS1872To2000#220_12_4790318.txt
 toW 1 All_Files\AS1872To2000#220_12_4790318.txt
 nirmm 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6106,6 +6235,7 @@ dma 1 All_Files\AS1872To2000#220_12_4790318.txt
 arn 1 All_Files\AS1872To2000#220_12_4790318.txt
 ktfence 1 All_Files\AS1872To2000#220_12_4790318.txt
 Bam 1 All_Files\AS1872To2000#220_12_4790318.txt
+4maxJ 1 All_Files\AS1872To2000#220_12_4790318.txt
 dmj 1 All_Files\AS1872To2000#220_12_4790318.txt
 dmax 2 All_Files\AS1872To2000#220_12_4790318.txt
 mulinprachts 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6113,6 +6243,7 @@ ffi 1 All_Files\AS1872To2000#220_12_4790318.txt
 Thenseboefno 1 All_Files\AS1872To2000#220_12_4790318.txt
 tUPwitattm 1 All_Files\AS1872To2000#220_12_4790318.txt
 torn 1 All_Files\AS1872To2000#220_12_4790318.txt
+U1slISsc 1 All_Files\AS1872To2000#220_12_4790318.txt
 finte 1 All_Files\AS1872To2000#220_12_4790318.txt
 energ 1 All_Files\AS1872To2000#220_12_4790318.txt
 mnimalicrsocIg 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6209,6 +6340,7 @@ unit 1 All_Files\AS1872To2000#220_12_4790318.txt
 stp 1 All_Files\AS1872To2000#220_12_4790318.txt
 probablitfattfiT 1 All_Files\AS1872To2000#220_12_4790318.txt
 rwnuron 1 All_Files\AS1872To2000#220_12_4790318.txt
+ese8 1 All_Files\AS1872To2000#220_12_4790318.txt
 take 2 All_Files\AS1872To2000#220_12_4790318.txt
 into 1 All_Files\AS1872To2000#220_12_4790318.txt
 acout 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6248,18 +6380,23 @@ stazatibo 1 All_Files\AS1872To2000#220_12_4790318.txt
 nework 1 All_Files\AS1872To2000#220_12_4790318.txt
 txrore 1 All_Files\AS1872To2000#220_12_4790318.txt
 chooses 1 All_Files\AS1872To2000#220_12_4790318.txt
+903 1 All_Files\AS1872To2000#220_12_4790318.txt
 cal 2 All_Files\AS1872To2000#220_12_4790318.txt
 rade 1 All_Files\AS1872To2000#220_12_4790318.txt
 Psm 2 All_Files\AS1872To2000#220_12_4790318.txt
 seleted 1 All_Files\AS1872To2000#220_12_4790318.txt
 larn 1 All_Files\AS1872To2000#220_12_4790318.txt
 patern 1 All_Files\AS1872To2000#220_12_4790318.txt
+at8 1 All_Files\AS1872To2000#220_12_4790318.txt
 cerain 1 All_Files\AS1872To2000#220_12_4790318.txt
 thie 1 All_Files\AS1872To2000#220_12_4790318.txt
 deriatis 1 All_Files\AS1872To2000#220_12_4790318.txt
 repec 1 All_Files\AS1872To2000#220_12_4790318.txt
 weigh 1 All_Files\AS1872To2000#220_12_4790318.txt
+4wwenS 1 All_Files\AS1872To2000#220_12_4790318.txt
+9wtheso 1 All_Files\AS1872To2000#220_12_4790318.txt
 bad 1 All_Files\AS1872To2000#220_12_4790318.txt
+1pk 1 All_Files\AS1872To2000#220_12_4790318.txt
 steepes 1 All_Files\AS1872To2000#220_12_4790318.txt
 descen 1 All_Files\AS1872To2000#220_12_4790318.txt
 dlans 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6269,6 +6406,7 @@ kth 1 All_Files\AS1872To2000#220_12_4790318.txt
 tfshold 1 All_Files\AS1872To2000#220_12_4790318.txt
 presc 1 All_Files\AS1872To2000#220_12_4790318.txt
 lwa 1 All_Files\AS1872To2000#220_12_4790318.txt
+w4J 1 All_Files\AS1872To2000#220_12_4790318.txt
 whre 1 All_Files\AS1872To2000#220_12_4790318.txt
 chhin 1 All_Files\AS1872To2000#220_12_4790318.txt
 sraMed 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6280,6 +6418,7 @@ wthsbd 1 All_Files\AS1872To2000#220_12_4790318.txt
 consitetl 1 All_Files\AS1872To2000#220_12_4790318.txt
 urdhtdin 1 All_Files\AS1872To2000#220_12_4790318.txt
 objecive 1 All_Files\AS1872To2000#220_12_4790318.txt
+1funto 1 All_Files\AS1872To2000#220_12_4790318.txt
 lwrni 1 All_Files\AS1872To2000#220_12_4790318.txt
 cowlswiththe 1 All_Files\AS1872To2000#220_12_4790318.txt
 celeb 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6298,10 +6437,16 @@ elemets 1 All_Files\AS1872To2000#220_12_4790318.txt
 eutn 1 All_Files\AS1872To2000#220_12_4790318.txt
 die 1 All_Files\AS1872To2000#220_12_4790318.txt
 rlizatin 1 All_Files\AS1872To2000#220_12_4790318.txt
+1za 1 All_Files\AS1872To2000#220_12_4790318.txt
 theshold 1 All_Files\AS1872To2000#220_12_4790318.txt
+6yof 1 All_Files\AS1872To2000#220_12_4790318.txt
+140 1 All_Files\AS1872To2000#220_12_4790318.txt
 ber 1 All_Files\AS1872To2000#220_12_4790318.txt
+add0 1 All_Files\AS1872To2000#220_12_4790318.txt
 first 1 All_Files\AS1872To2000#220_12_4790318.txt
+caulathe9w 1 All_Files\AS1872To2000#220_12_4790318.txt
 besmE 1 All_Files\AS1872To2000#220_12_4790318.txt
+pULI1e 1 All_Files\AS1872To2000#220_12_4790318.txt
 where 3 All_Files\AS1872To2000#220_12_4790318.txt
 boecae 1 All_Files\AS1872To2000#220_12_4790318.txt
 tuwo 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6350,6 +6495,7 @@ thew 1 All_Files\AS1872To2000#220_12_4790318.txt
 gto 1 All_Files\AS1872To2000#220_12_4790318.txt
 cortxtn 1 All_Files\AS1872To2000#220_12_4790318.txt
 pattt 1 All_Files\AS1872To2000#220_12_4790318.txt
+pa1 1 All_Files\AS1872To2000#220_12_4790318.txt
 Thes 1 All_Files\AS1872To2000#220_12_4790318.txt
 maxwzm 1 All_Files\AS1872To2000#220_12_4790318.txt
 andrrmrdn 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6357,6 +6503,7 @@ enrgy 1 All_Files\AS1872To2000#220_12_4790318.txt
 asmun 1 All_Files\AS1872To2000#220_12_4790318.txt
 fron 1 All_Files\AS1872To2000#220_12_4790318.txt
 wost 1 All_Files\AS1872To2000#220_12_4790318.txt
+Vs4t 1 All_Files\AS1872To2000#220_12_4790318.txt
 bit 1 All_Files\AS1872To2000#220_12_4790318.txt
 oty 1 All_Files\AS1872To2000#220_12_4790318.txt
 ofd 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6364,9 +6511,14 @@ irreaski 1 All_Files\AS1872To2000#220_12_4790318.txt
 fromn 1 All_Files\AS1872To2000#220_12_4790318.txt
 death 1 All_Files\AS1872To2000#220_12_4790318.txt
 deos 1 All_Files\AS1872To2000#220_12_4790318.txt
+H1D 1 All_Files\AS1872To2000#220_12_4790318.txt
 kiom 1 All_Files\AS1872To2000#220_12_4790318.txt
+P6cP 1 All_Files\AS1872To2000#220_12_4790318.txt
 tqP 1 All_Files\AS1872To2000#220_12_4790318.txt
+ttd4 1 All_Files\AS1872To2000#220_12_4790318.txt
+P41 1 All_Files\AS1872To2000#220_12_4790318.txt
 PCPA 1 All_Files\AS1872To2000#220_12_4790318.txt
+904 1 All_Files\AS1872To2000#220_12_4790318.txt
 Givn 1 All_Files\AS1872To2000#220_12_4790318.txt
 ipt 1 All_Files\AS1872To2000#220_12_4790318.txt
 Stern 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6394,6 +6546,7 @@ needed 1 All_Files\AS1872To2000#220_12_4790318.txt
 equation 2 All_Files\AS1872To2000#220_12_4790318.txt
 diem 1 All_Files\AS1872To2000#220_12_4790318.txt
 cbr 1 All_Files\AS1872To2000#220_12_4790318.txt
+x4IsltwurSt 1 All_Files\AS1872To2000#220_12_4790318.txt
 bluos 1 All_Files\AS1872To2000#220_12_4790318.txt
 cian 1 All_Files\AS1872To2000#220_12_4790318.txt
 uwed 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6412,6 +6565,7 @@ prx 1 All_Files\AS1872To2000#220_12_4790318.txt
 thpes 1 All_Files\AS1872To2000#220_12_4790318.txt
 rafp 1 All_Files\AS1872To2000#220_12_4790318.txt
 koi 1 All_Files\AS1872To2000#220_12_4790318.txt
+ta8 1 All_Files\AS1872To2000#220_12_4790318.txt
 alead 1 All_Files\AS1872To2000#220_12_4790318.txt
 asoiae 1 All_Files\AS1872To2000#220_12_4790318.txt
 sae 2 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6486,6 +6640,8 @@ larning 1 All_Files\AS1872To2000#220_12_4790318.txt
 derivative 1 All_Files\AS1872To2000#220_12_4790318.txt
 updat 1 All_Files\AS1872To2000#220_12_4790318.txt
 schm 1 All_Files\AS1872To2000#220_12_4790318.txt
+1uadf 1 All_Files\AS1872To2000#220_12_4790318.txt
+4O4 1 All_Files\AS1872To2000#220_12_4790318.txt
 siwtu 1 All_Files\AS1872To2000#220_12_4790318.txt
 ffb 1 All_Files\AS1872To2000#220_12_4790318.txt
 itrduced 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6498,8 +6654,10 @@ vues 1 All_Files\AS1872To2000#220_12_4790318.txt
 trsold 1 All_Files\AS1872To2000#220_12_4790318.txt
 psmp 1 All_Files\AS1872To2000#220_12_4790318.txt
 ntwok 1 All_Files\AS1872To2000#220_12_4790318.txt
+IXafO7 1 All_Files\AS1872To2000#220_12_4790318.txt
 XCt 1 All_Files\AS1872To2000#220_12_4790318.txt
 dlt 1 All_Files\AS1872To2000#220_12_4790318.txt
+andof82 1 All_Files\AS1872To2000#220_12_4790318.txt
 wnedkns 1 All_Files\AS1872To2000#220_12_4790318.txt
 nXIlr 1 All_Files\AS1872To2000#220_12_4790318.txt
 IEnr 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6540,6 +6698,7 @@ dlferert 1 All_Files\AS1872To2000#220_12_4790318.txt
 sAeets 1 All_Files\AS1872To2000#220_12_4790318.txt
 othe 1 All_Files\AS1872To2000#220_12_4790318.txt
 fooi 1 All_Files\AS1872To2000#220_12_4790318.txt
+905 1 All_Files\AS1872To2000#220_12_4790318.txt
 RetiaWprobtli 1 All_Files\AS1872To2000#220_12_4790318.txt
 four 1 All_Files\AS1872To2000#220_12_4790318.txt
 mutualy 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6642,6 +6801,7 @@ Boungon 1 All_Files\AS1872To2000#220_12_4790318.txt
 pOm 1 All_Files\AS1872To2000#220_12_4790318.txt
 kia 1 All_Files\AS1872To2000#220_12_4790318.txt
 mIsi 1 All_Files\AS1872To2000#220_12_4790318.txt
+AFgr2 1 All_Files\AS1872To2000#220_12_4790318.txt
 werB 1 All_Files\AS1872To2000#220_12_4790318.txt
 owndheHaootn 1 All_Files\AS1872To2000#220_12_4790318.txt
 proab 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6662,6 +6822,7 @@ deae 1 All_Files\AS1872To2000#220_12_4790318.txt
 inikial 1 All_Files\AS1872To2000#220_12_4790318.txt
 nri 1 All_Files\AS1872To2000#220_12_4790318.txt
 dsa 1 All_Files\AS1872To2000#220_12_4790318.txt
+Bi1 1 All_Files\AS1872To2000#220_12_4790318.txt
 hini 1 All_Files\AS1872To2000#220_12_4790318.txt
 ance 1 All_Files\AS1872To2000#220_12_4790318.txt
 Fgure 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6681,6 +6842,7 @@ pnAtern 1 All_Files\AS1872To2000#220_12_4790318.txt
 tqper 1 All_Files\AS1872To2000#220_12_4790318.txt
 hal 1 All_Files\AS1872To2000#220_12_4790318.txt
 ithal 1 All_Files\AS1872To2000#220_12_4790318.txt
+Hamrig1 1 All_Files\AS1872To2000#220_12_4790318.txt
 arce 1 All_Files\AS1872To2000#220_12_4790318.txt
 nital 1 All_Files\AS1872To2000#220_12_4790318.txt
 Iaming 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6706,6 +6868,7 @@ Transacdons 2 All_Files\AS1872To2000#220_12_4790318.txt
 Model 1 All_Files\AS1872To2000#220_12_4790318.txt
 Neua 1 All_Files\AS1872To2000#220_12_4790318.txt
 ReviewA 1 All_Files\AS1872To2000#220_12_4790318.txt
+161 1 All_Files\AS1872To2000#220_12_4790318.txt
 Infinie 1 All_Files\AS1872To2000#220_12_4790318.txt
 Numbers 1 All_Files\AS1872To2000#220_12_4790318.txt
 Paerms 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6714,6 +6877,7 @@ Lin 1 All_Files\AS1872To2000#220_12_4790318.txt
 Programming 1 All_Files\AS1872To2000#220_12_4790318.txt
 without 1 All_Files\AS1872To2000#220_12_4790318.txt
 TrrCirns 1 All_Files\AS1872To2000#220_12_4790318.txt
+Ck4s 1 All_Files\AS1872To2000#220_12_4790318.txt
 Stability 1 All_Files\AS1872To2000#220_12_4790318.txt
 Formation 1 All_Files\AS1872To2000#220_12_4790318.txt
 Parallel 4 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6759,11 +6923,13 @@ Transiors 1 All_Files\AS1872To2000#220_12_4790318.txt
 Cirls 1 All_Files\AS1872To2000#220_12_4790318.txt
 andSystem 1 All_Files\AS1872To2000#220_12_4790318.txt
 Stale 1 All_Files\AS1872To2000#220_12_4790318.txt
+1988 1 All_Files\AS1872To2000#220_12_4790318.txt
 American 1 All_Files\AS1872To2000#220_12_4790318.txt
 Contro 1 All_Files\AS1872To2000#220_12_4790318.txt
 Theoretic 1 All_Files\AS1872To2000#220_12_4790318.txt
 Soutions 1 All_Files\AS1872To2000#220_12_4790318.txt
 Procedings 1 All_Files\AS1872To2000#220_12_4790318.txt
+1st 1 All_Files\AS1872To2000#220_12_4790318.txt
 Intemationau 1 All_Files\AS1872To2000#220_12_4790318.txt
 Corence 1 All_Files\AS1872To2000#220_12_4790318.txt
 San 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6773,9 +6939,11 @@ Analysis 1 All_Files\AS1872To2000#220_12_4790318.txt
 Syrthesis 1 All_Files\AS1872To2000#220_12_4790318.txt
 Class 1 All_Files\AS1872To2000#220_12_4790318.txt
 Cicits 1 All_Files\AS1872To2000#220_12_4790318.txt
+Fio0ied 1 All_Files\AS1872To2000#220_12_4790318.txt
 Assodative 1 All_Files\AS1872To2000#220_12_4790318.txt
 Transactions 2 All_Files\AS1872To2000#220_12_4790318.txt
 Infonration 1 All_Files\AS1872To2000#220_12_4790318.txt
+1241 1 All_Files\AS1872To2000#220_12_4790318.txt
 Disrce 1 All_Files\AS1872To2000#220_12_4790318.txt
 Volume 2 All_Files\AS1872To2000#220_12_4790318.txt
 Psychokogtal 1 All_Files\AS1872To2000#220_12_4790318.txt
@@ -6787,10 +6955,13 @@ Dirbed 1 All_Files\AS1872To2000#220_12_4790318.txt
 CantbidgelMIT 1 All_Files\AS1872To2000#220_12_4790318.txt
 YorkArmercan 1 All_Files\AS1872To2000#220_12_4790318.txt
 Insttute 1 All_Files\AS1872To2000#220_12_4790318.txt
+420 1 All_Files\AS1872To2000#220_12_4790318.txt
 Circuits 1 All_Files\AS1872To2000#220_12_4790318.txt
 Reseh 1 All_Files\AS1872To2000#220_12_4790318.txt
 suppored 1 All_Files\AS1872To2000#220_12_4790318.txt
 NSF 1 All_Files\AS1872To2000#220_12_4790318.txt
+8810186 1 All_Files\AS1872To2000#220_12_4790318.txt
+907 1 All_Files\AS1872To2000#220_12_4790318.txt
 Extended 1 All_Files\AS1872To2000#220_13_118709.txt
 Model 1 All_Files\AS1872To2000#220_13_118709.txt
 the 241 All_Files\AS1872To2000#220_13_118709.txt
@@ -6906,6 +7077,7 @@ Preparation 1 All_Files\AS1872To2000#220_13_118709.txt
 supported 1 All_Files\AS1872To2000#220_13_118709.txt
 grant 1 All_Files\AS1872To2000#220_13_118709.txt
 lROl 1 All_Files\AS1872To2000#220_13_118709.txt
+NS24926 1 All_Files\AS1872To2000#220_13_118709.txt
 from 12 All_Files\AS1872To2000#220_13_118709.txt
 NIH 1 All_Files\AS1872To2000#220_13_118709.txt
 PrincipaI 1 All_Files\AS1872To2000#220_13_118709.txt
@@ -7055,6 +7227,7 @@ signal 1 All_Files\AS1872To2000#220_13_118709.txt
 form 4 All_Files\AS1872To2000#220_13_118709.txt
 lateral 2 All_Files\AS1872To2000#220_13_118709.txt
 yields 1 All_Files\AS1872To2000#220_13_118709.txt
+kF1 1 All_Files\AS1872To2000#220_13_118709.txt
 monotonically 1 All_Files\AS1872To2000#220_13_118709.txt
 manner 1 All_Files\AS1872To2000#220_13_118709.txt
 similar 1 All_Files\AS1872To2000#220_13_118709.txt
@@ -7183,6 +7356,7 @@ Before 1 All_Files\AS1872To2000#220_13_118709.txt
 applying 1 All_Files\AS1872To2000#220_13_118709.txt
 whether 1 All_Files\AS1872To2000#220_13_118709.txt
 explicit 2 All_Files\AS1872To2000#220_13_118709.txt
+exp2icit 1 All_Files\AS1872To2000#220_13_118709.txt
 current 6 All_Files\AS1872To2000#220_13_118709.txt
 Otherwise 1 All_Files\AS1872To2000#220_13_118709.txt
 called 2 All_Files\AS1872To2000#220_13_118709.txt
@@ -7287,11 +7461,13 @@ extension 2 All_Files\AS1872To2000#220_13_118709.txt
 uppermost 1 All_Files\AS1872To2000#220_13_118709.txt
 Three 1 All_Files\AS1872To2000#220_13_118709.txt
 activate 2 All_Files\AS1872To2000#220_13_118709.txt
+Uc3 5 All_Files\AS1872To2000#220_13_118709.txt
 Another 2 All_Files\AS1872To2000#220_13_118709.txt
 simplification 1 All_Files\AS1872To2000#220_13_118709.txt
 planes 1 All_Files\AS1872To2000#220_13_118709.txt
 assume 2 All_Files\AS1872To2000#220_13_118709.txt
 upper 2 All_Files\AS1872To2000#220_13_118709.txt
+Fig3 1 All_Files\AS1872To2000#220_13_118709.txt
 repeatedly 1 All_Files\AS1872To2000#220_13_118709.txt
 respectively 1 All_Files\AS1872To2000#220_13_118709.txt
 test 1 All_Files\AS1872To2000#220_13_118709.txt
@@ -7991,6 +8167,7 @@ limiting 2 All_Files\AS1872To2000#220_14_82207.txt
 feeds 1 All_Files\AS1872To2000#220_14_82207.txt
 controls 1 All_Files\AS1872To2000#220_14_82207.txt
 motor 1 All_Files\AS1872To2000#220_14_82207.txt
+an6 1 All_Files\AS1872To2000#220_14_82207.txt
 verify 1 All_Files\AS1872To2000#220_14_82207.txt
 blocking 1 All_Files\AS1872To2000#220_14_82207.txt
 additional 1 All_Files\AS1872To2000#220_14_82207.txt
@@ -8203,7 +8380,9 @@ generic 1 All_Files\AS1872To2000#220_15_65084.txt
 conventional 1 All_Files\AS1872To2000#220_15_65084.txt
 elaborate 1 All_Files\AS1872To2000#220_15_65084.txt
 declarations 2 All_Files\AS1872To2000#220_15_65084.txt
+1989 1 All_Files\AS1872To2000#220_15_65084.txt
 IEEE 1 All_Files\AS1872To2000#220_15_65084.txt
+197 1 All_Files\AS1872To2000#220_15_65084.txt
 Inheritance 1 All_Files\AS1872To2000#220_15_65084.txt
 constraints 7 All_Files\AS1872To2000#220_15_65084.txt
 applied 1 All_Files\AS1872To2000#220_15_65084.txt
@@ -8214,7 +8393,11 @@ simple 1 All_Files\AS1872To2000#220_15_65084.txt
 below 1 All_Files\AS1872To2000#220_15_65084.txt
 illustration 1 All_Files\AS1872To2000#220_15_65084.txt
 AGGREGATION 6 All_Files\AS1872To2000#220_15_65084.txt
+AT3 1 All_Files\AS1872To2000#220_15_65084.txt
 UPDATE 2 All_Files\AS1872To2000#220_15_65084.txt
+AT1 4 All_Files\AS1872To2000#220_15_65084.txt
+AT2 5 All_Files\AS1872To2000#220_15_65084.txt
+CORRECT1 1 All_Files\AS1872To2000#220_15_65084.txt
 has 4 All_Files\AS1872To2000#220_15_65084.txt
 three 2 All_Files\AS1872To2000#220_15_65084.txt
 attributes 5 All_Files\AS1872To2000#220_15_65084.txt
@@ -8348,6 +8531,7 @@ during 1 All_Files\AS1872To2000#220_15_65084.txt
 inferencing 1 All_Files\AS1872To2000#220_15_65084.txt
 process 1 All_Files\AS1872To2000#220_15_65084.txt
 rather 4 All_Files\AS1872To2000#220_15_65084.txt
+I98 1 All_Files\AS1872To2000#220_15_65084.txt
 kinds 1 All_Files\AS1872To2000#220_15_65084.txt
 Generalization 1 All_Files\AS1872To2000#220_15_65084.txt
 Smith 1 All_Files\AS1872To2000#220_15_65084.txt
@@ -8414,6 +8598,7 @@ uses 1 All_Files\AS1872To2000#220_15_65084.txt
 behave 1 All_Files\AS1872To2000#220_15_65084.txt
 migrated 1 All_Files\AS1872To2000#220_15_65084.txt
 Session 1 All_Files\AS1872To2000#220_16_132606.txt
+12B7 1 All_Files\AS1872To2000#220_16_132606.txt
 Adaptable 1 All_Files\AS1872To2000#220_16_132606.txt
 Speech 2 All_Files\AS1872To2000#220_16_132606.txt
 System 3 All_Files\AS1872To2000#220_16_132606.txt
@@ -8427,6 +8612,7 @@ Sun 1 All_Files\AS1872To2000#220_16_132606.txt
 Raymond 1 All_Files\AS1872To2000#220_16_132606.txt
 Wisman 1 All_Files\AS1872To2000#220_16_132606.txt
 Khaled 1 All_Files\AS1872To2000#220_16_132606.txt
+Kame1 1 All_Files\AS1872To2000#220_16_132606.txt
 Engineering 1 All_Files\AS1872To2000#220_16_132606.txt
 Mathematics 1 All_Files\AS1872To2000#220_16_132606.txt
 Computer 6 All_Files\AS1872To2000#220_16_132606.txt
@@ -8508,6 +8694,7 @@ well 1 All_Files\AS1872To2000#220_16_132606.txt
 under 2 All_Files\AS1872To2000#220_16_132606.txt
 way 2 All_Files\AS1872To2000#220_16_132606.txt
 early 1 All_Files\AS1872To2000#220_16_132606.txt
+1960’s 1 All_Files\AS1872To2000#220_16_132606.txt
 components 4 All_Files\AS1872To2000#220_16_132606.txt
 needed 2 All_Files\AS1872To2000#220_16_132606.txt
 generate 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -8516,6 +8703,7 @@ from 24 All_Files\AS1872To2000#220_16_132606.txt
 text 24 All_Files\AS1872To2000#220_16_132606.txt
 were 1 All_Files\AS1872To2000#220_16_132606.txt
 known 1 All_Files\AS1872To2000#220_16_132606.txt
+1970 1 All_Files\AS1872To2000#220_16_132606.txt
 types 1 All_Files\AS1872To2000#220_16_132606.txt
 generation 2 All_Files\AS1872To2000#220_16_132606.txt
 coding 3 All_Files\AS1872To2000#220_16_132606.txt
@@ -8695,7 +8883,9 @@ enough 1 All_Files\AS1872To2000#220_16_132606.txt
 slow 1 All_Files\AS1872To2000#220_16_132606.txt
 apparent 1 All_Files\AS1872To2000#220_16_132606.txt
 Proceedings 6 All_Files\AS1872To2000#220_16_132606.txt
+1989 5 All_Files\AS1872To2000#220_16_132606.txt
 Southeastcon 5 All_Files\AS1872To2000#220_16_132606.txt
+1163 1 All_Files\AS1872To2000#220_16_132606.txt
 amount 1 All_Files\AS1872To2000#220_16_132606.txt
 reduction 1 All_Files\AS1872To2000#220_16_132606.txt
 expected 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -8762,9 +8952,12 @@ external 1 All_Files\AS1872To2000#220_16_132606.txt
 used 9 All_Files\AS1872To2000#220_16_132606.txt
 Machine 1 All_Files\AS1872To2000#220_16_132606.txt
 Model 1 All_Files\AS1872To2000#220_16_132606.txt
+5150 1 All_Files\AS1872To2000#220_16_132606.txt
+256 1 All_Files\AS1872To2000#220_16_132606.txt
 kilobytes 1 All_Files\AS1872To2000#220_16_132606.txt
 random 2 All_Files\AS1872To2000#220_16_132606.txt
 access 2 All_Files\AS1872To2000#220_16_132606.txt
+360 1 All_Files\AS1872To2000#220_16_132606.txt
 kilobyte 1 All_Files\AS1872To2000#220_16_132606.txt
 graphics 1 All_Files\AS1872To2000#220_16_132606.txt
 Custom 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -8796,6 +8989,7 @@ best 1 All_Files\AS1872To2000#220_16_132606.txt
 satisfies 1 All_Files\AS1872To2000#220_16_132606.txt
 requirements 2 All_Files\AS1872To2000#220_16_132606.txt
 selected 1 All_Files\AS1872To2000#220_16_132606.txt
+7TL 1 All_Files\AS1872To2000#220_16_132606.txt
 compatible 1 All_Files\AS1872To2000#220_16_132606.txt
 throughout 1 All_Files\AS1872To2000#220_16_132606.txt
 ease 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -8803,6 +8997,7 @@ very 2 All_Files\AS1872To2000#220_16_132606.txt
 low 1 All_Files\AS1872To2000#220_16_132606.txt
 rates 1 All_Files\AS1872To2000#220_16_132606.txt
 monotone 1 All_Files\AS1872To2000#220_16_132606.txt
+100 1 All_Files\AS1872To2000#220_16_132606.txt
 bits 1 All_Files\AS1872To2000#220_16_132606.txt
 per 1 All_Files\AS1872To2000#220_16_132606.txt
 contains 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -8902,6 +9097,7 @@ request 1 All_Files\AS1872To2000#220_16_132606.txt
 vectored 1 All_Files\AS1872To2000#220_16_132606.txt
 serviced 1 All_Files\AS1872To2000#220_16_132606.txt
 results 2 All_Files\AS1872To2000#220_16_132606.txt
+1164 1 All_Files\AS1872To2000#220_16_132606.txt
 arc 1 All_Files\AS1872To2000#220_16_132606.txt
 inserted 1 All_Files\AS1872To2000#220_16_132606.txt
 flow 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -8970,6 +9166,8 @@ adds 1 All_Files\AS1872To2000#220_16_132606.txt
 deletes 1 All_Files\AS1872To2000#220_16_132606.txt
 existing 1 All_Files\AS1872To2000#220_16_132606.txt
 ignores 1 All_Files\AS1872To2000#220_16_132606.txt
+string1 1 All_Files\AS1872To2000#220_16_132606.txt
+string2 1 All_Files\AS1872To2000#220_16_132606.txt
 speaks 1 All_Files\AS1872To2000#220_16_132606.txt
 require 1 All_Files\AS1872To2000#220_16_132606.txt
 storage 2 All_Files\AS1872To2000#220_16_132606.txt
@@ -9047,6 +9245,8 @@ spelled 2 All_Files\AS1872To2000#220_16_132606.txt
 out 1 All_Files\AS1872To2000#220_16_132606.txt
 advantages 1 All_Files\AS1872To2000#220_16_132606.txt
 small 1 All_Files\AS1872To2000#220_16_132606.txt
+350 1 All_Files\AS1872To2000#220_16_132606.txt
+400 1 All_Files\AS1872To2000#220_16_132606.txt
 dealt 1 All_Files\AS1872To2000#220_16_132606.txt
 change 2 All_Files\AS1872To2000#220_16_132606.txt
 pronunciations 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -9056,6 +9256,7 @@ approach 1 All_Files\AS1872To2000#220_16_132606.txt
 distinct 1 All_Files\AS1872To2000#220_16_132606.txt
 formulation 2 All_Files\AS1872To2000#220_16_132606.txt
 done 1 All_Files\AS1872To2000#220_16_132606.txt
+1165 1 All_Files\AS1872To2000#220_16_132606.txt
 assigned 1 All_Files\AS1872To2000#220_16_132606.txt
 phonetic 3 All_Files\AS1872To2000#220_16_132606.txt
 OOK 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -9070,6 +9271,7 @@ exact 3 All_Files\AS1872To2000#220_16_132606.txt
 exactly 1 All_Files\AS1872To2000#220_16_132606.txt
 identical 1 All_Files\AS1872To2000#220_16_132606.txt
 parts 1 All_Files\AS1872To2000#220_16_132606.txt
+I11 2 All_Files\AS1872To2000#220_16_132606.txt
 ASCII 2 All_Files\AS1872To2000#220_16_132606.txt
 vowel 1 All_Files\AS1872To2000#220_16_132606.txt
 consonant 3 All_Files\AS1872To2000#220_16_132606.txt
@@ -9119,6 +9321,7 @@ defined 2 All_Files\AS1872To2000#220_16_132606.txt
 represented 1 All_Files\AS1872To2000#220_16_132606.txt
 Votrax 1 All_Files\AS1872To2000#220_16_132606.txt
 representations 1 All_Files\AS1872To2000#220_16_132606.txt
+UH2 1 All_Files\AS1872To2000#220_16_132606.txt
 differing 1 All_Files\AS1872To2000#220_16_132606.txt
 properties 1 All_Files\AS1872To2000#220_16_132606.txt
 account 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -9155,6 +9358,7 @@ monitored 2 All_Files\AS1872To2000#220_16_132606.txt
 while 1 All_Files\AS1872To2000#220_16_132606.txt
 Improve 1 All_Files\AS1872To2000#220_16_132606.txt
 continuing 1 All_Files\AS1872To2000#220_16_132606.txt
+1166 1 All_Files\AS1872To2000#220_16_132606.txt
 REFERENCE 1 All_Files\AS1872To2000#220_16_132606.txt
 August 1 All_Files\AS1872To2000#220_16_132606.txt
 Deane 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -9165,8 +9369,10 @@ Computing 1 All_Files\AS1872To2000#220_16_132606.txt
 Aid 1 All_Files\AS1872To2000#220_16_132606.txt
 October 1 All_Files\AS1872To2000#220_16_132606.txt
 SSI 1 All_Files\AS1872To2000#220_16_132606.txt
+263A 1 All_Files\AS1872To2000#220_16_132606.txt
 SDeech 1 All_Files\AS1872To2000#220_16_132606.txt
 Sheet 1 All_Files\AS1872To2000#220_16_132606.txt
+14351 1 All_Files\AS1872To2000#220_16_132606.txt
 Myford 1 All_Files\AS1872To2000#220_16_132606.txt
 Writing 1 All_Files\AS1872To2000#220_16_132606.txt
 Byte 1 All_Files\AS1872To2000#220_16_132606.txt
@@ -9200,3 +9406,4 @@ completed 1 All_Files\AS1872To2000#220_16_132606.txt
 degree 1 All_Files\AS1872To2000#220_16_132606.txt
 member 1 All_Files\AS1872To2000#220_16_132606.txt
 IBM 1 All_Files\AS1872To2000#220_16_132606.txt
+1167 1 All_Files\AS1872To2000#220_16_132606.txt

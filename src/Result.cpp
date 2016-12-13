@@ -8,6 +8,7 @@
 #include "User.h"
 #include <algorithm>
 #include <memory>
+#include "PageRank.h"
 
 #define NUM_OF_RESULT_SHOWN 5   // For show number of result
 
@@ -58,7 +59,8 @@ vector<pair<string,string>> Result::produce_result_in_pair_vector(string keyword
     return s->produce_result_in_pair_vector(keyword);
 }
 
-namespace helper2 {
+namespace helper2
+{
 
 /**
 
@@ -69,11 +71,7 @@ This function is just menu to show user what options are available
 
 **/
 
-<<<<<<< HEAD
 void Main_menu()
-=======
-void Result::Main_menu()
->>>>>>> ce8738ca0482e5e16c9ac4a5887944fdb95fe23b
 {
     cout << endl;
     cout << endl << "***************************************************";
@@ -105,11 +103,7 @@ void Result::Main_prog()
     fstream userfile;
     userfile.open("users.txt",ios::app);
     int user_id = -1;
-<<<<<<< HEAD
     helper2::Main_menu();
-=======
-    Main_menu();
->>>>>>> ce8738ca0482e5e16c9ac4a5887944fdb95fe23b
     while(exit != "exit")
     {
 
@@ -235,9 +229,12 @@ void Result::searching_start(User currentUser)
     string result_file_name = "";
     int flag = 0;
     string results[NUM_OF_RESULT_SHOWN];
+    PageRank *p_rank;
+
     cout << endl << "Enter search keyword: ";
     cin >> search_keyword;
     int count = 0;
+
     transform(search_keyword.begin(), search_keyword.end(), search_keyword.begin(),  to_lower);
 
     if(produce_result_in_pair_vector(search_keyword).size() > 0)
@@ -252,7 +249,7 @@ void Result::searching_start(User currentUser)
             {
                 if(i < vec_pair_result.size())
                 {
-                    cout << "[" << i <<"]"<< vec_pair_result[i].second << endl;
+                    cout << "[" << i <<"]"<< vec_pair_result[i].second  << endl;
                     results[count++] = "[" + to_string(i) + "]" + vec_pair_result[i].second;
                 }
             }
@@ -286,6 +283,7 @@ void Result::searching_start(User currentUser)
                 {
                     if(currentUser.id > 0)
                     {
+
                         cout << "Saving results for keyword \"" << search_keyword << "\" to file." << endl;
                         string outFileName = to_string(currentUser.id) + search_keyword;
                         ofstream outfile;
@@ -302,14 +300,28 @@ void Result::searching_start(User currentUser)
                         cin >> entry;
                     }
                     input_string = "exit";
-                    //  break;
                 }
             }
         }
         if(entry > -1 && entry < index)
         {
+            vector<string> display_vec;
+            p_rank->set_page_rank(search_keyword,"1", vec_pair_result[entry].first);
             result_file_name = vec_pair_result[entry].first;
-            cout << endl << "Opening file name: " << result_file_name;
+
+            display_vec = s.produce_result_in_paragraph(result_file_name, vec_pair_result[entry].second);
+
+            cout << endl << "*************************** Result *********************************" << endl;
+
+            for ( vector<string>::iterator it=display_vec.begin(); it!=display_vec.end(); ++it)
+            {
+                cout << *it << " ";
+
+            }
+
+            cout << endl << "**************************** Result ********************************" << endl;
+            cout << endl << "********************* To Read full document open -> "<< result_file_name << endl;
+
             entry = 9999999;
         }
     }
