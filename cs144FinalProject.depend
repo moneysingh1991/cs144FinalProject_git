@@ -149,18 +149,13 @@
 	<map>
 	<typeinfo>
 
-1481618223 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\main.cpp
+1481837022 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\main.cpp
 	<iostream>
 	<string>
-	<vector>
-	"Search.h"
-	<fstream>
 	"Result.h"
-	"string.h"
-	"PageRank.h"
-	<algorithm>
+	<vector>
 
-1481588221 c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\include\search.h
+1481838671 c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\include\search.h
 	<vector>
 	<string>
 
@@ -170,7 +165,7 @@
 
 1480362050 c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\include\user.h
 
-1481622124 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\src\result.cpp
+1481624452 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\src\result.cpp
 	"Result.h"
 	<iostream>
 	<string>
@@ -183,7 +178,7 @@
 	<memory>
 	"PageRank.h"
 
-1481624339 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\src\search.cpp
+1481838425 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\src\search.cpp
 	<fstream>
 	<iostream>
 	<cstdlib>
@@ -205,7 +200,7 @@
 	"Search.h"
 	<vector>
 
-1481540654 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\src\pagerank.cpp
+1481624452 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\src\pagerank.cpp
 	"PageRank.h"
 	"Search.h"
 	<iostream>

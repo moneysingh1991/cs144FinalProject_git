@@ -1,0 +1,10 @@
+[0] computer applications to speech synthesis hardware will be presented. It has been designed for use with applications utilizing the 
+[1] computer system and a simple speech synthesizer. The speech system is adaptable to various speech synthesizer hardware. Adapting the 
+[2] computer system. I. INTRODUCTION Interest in artificial speech has existed for many years and has often been on the 
+[3] computer applications, three types of speech generation prcdominates: linear-predictive coding (LPC), waveform digitization and phoneme synthesis. These methods differ 
+[4] computer applications. The goal of this paper is to explore the problem of producing synthetic speech for standard computer 
+[0] computer applications to speech synthesis hardware will be presented. It has been designed for use with applications utilizing the 
+[1] computer system and a simple speech synthesizer. The speech system is adaptable to various speech synthesizer hardware. Adapting the 
+[2] computer system. I. INTRODUCTION Interest in artificial speech has existed for many years and has often been on the 
+[3] computer applications, three types of speech generation prcdominates: linear-predictive coding (LPC), waveform digitization and phoneme synthesis. These methods differ 
+[4] computer applications. The goal of this paper is to explore the problem of producing synthetic speech for standard computer 

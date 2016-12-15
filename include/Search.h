@@ -7,6 +7,11 @@ using namespace std;
 
  struct letter_only;
 
+
+vector<string> operator-=(vector<string> vec,  vector<string> vec_temp1);
+vector<string> operator+=(vector<string> vec,  vector<string> vec_temp1);
+
+
 namespace helper1 {
     /**
             Created by: Maninderpal Singh
@@ -65,6 +70,8 @@ template <class T>
 class Search
 {
     public:
+
+
         /**
         Created by: Maninderpal Singh
 

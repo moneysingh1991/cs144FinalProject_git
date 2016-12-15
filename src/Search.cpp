@@ -108,7 +108,7 @@ void Search::keyword_pre_process()
 
     if(check_file(table1) == 0 ||Search::check_file(table1_status_file) == 0)
     {
-        cout << "Exit can't run further because no file exists" << endl;
+        cout << "Setup Process going to start" << endl;
 
         cout << "Do you wish to continue? Enter yes or no: ";
 
@@ -465,22 +465,15 @@ vector<string> Search::produce_result_of_keyword(string word)
     }
     file.close();
 
-
     vec_temp1 =  page_rank->get_result_from_page_rank(word);
 
     //removing one vector element  from another vector if match
 
-    for ( vector<string>::iterator it=vec_temp1.begin(); it!=vec_temp1.end(); ++it)
-    {
-        vec.erase(std::remove(vec.begin(), vec.end(), *it), vec.end());
-
-    }
+    vec-=vec_temp1; // operator overloading for subtract one vector from another
 
     // adding vector to another
-    for ( vector<string>::iterator it2=vec.begin(); it2!=vec.end(); ++it2)
-    {
-        vec_temp1.push_back(*it2);
-    }
+
+    vec_temp1+=vec; // operator overloading for add one vector to another
 
     return vec_temp1;
 }
@@ -788,3 +781,28 @@ void Search::convert_to_lower(string &input_string)
     transform(input_string.begin(), input_string.end(), input_string.begin(), to_lower_case);
 }
 
+
+        /**
+        Created by: Maninderpal Singh
+
+           +=() this is operator overload function used to add two vectors
+        **/
+
+
+vector<string> operator+=(vector<string> a,   vector<string> b)
+{
+    a.insert(a.end(), b.begin(), b.end());
+    return a;
+}
+
+
+vector<string> operator-=(vector<string> vec,   vector<string> vec_temp1)
+{
+
+    for ( vector<string>::iterator it=vec_temp1.begin(); it!=vec_temp1.end(); ++it)
+    {
+        vec.erase(remove(vec.begin(), vec.end(), *it), vec.end());
+
+    }
+    return vec;
+}

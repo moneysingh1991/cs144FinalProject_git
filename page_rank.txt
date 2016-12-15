@@ -64,3 +64,12 @@ data 1 All_Files\AS1872To2000#220_5_47435.txt
 312 1 All_Files\AS1872To2000#220_17_81147.txt
 use 1 All_Files\AS1872To2000#220_8_36285.txt
 used 1 All_Files\AS1872To2000#220_14_82207.txt
+computer 1 All_Files\AS1872To2000#220_16_132606.txt
+computer 1 All_Files\AS1872To2000#220_16_132606.txt
+data 1 All_Files\AS1872To2000#220_5_47435.txt
+data 1 All_Files\AS1872To2000#220_4_197058.txt
+struct 1 All_Files\AS1872To2000#220_5_47435.txt
+data 1 All_Files\AS1872To2000#220_5_47435.txt
+data 1 All_Files\AS1872To2000#220_5_47435.txt
+computer 1 All_Files\AS1872To2000#220_16_132606.txt
+get 1 All_Files\AS1872To2000#220_4_197058.txt
