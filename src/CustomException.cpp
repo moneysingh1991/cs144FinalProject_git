@@ -4,7 +4,7 @@
 
 using namespace std;
 
-virtual const char* CustomException::what()
+const char* CustomException::what() const throw()
 {
     return "Invalid Input caught";
 }

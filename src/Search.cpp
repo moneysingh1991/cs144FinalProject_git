@@ -410,7 +410,6 @@ vector<string> Search::produce_result_of_keyword(string word)
         while( file >> fileword && file >> count_keyword && file >> filename) // for each fileword word read from the file
         {
 
-
             if( helper1::compare_string(word, fileword) == 1)
             {
                 vec.push_back(fileword + " " + count_keyword + " " + filename );
@@ -469,13 +468,20 @@ vector<string> Search::produce_result_of_keyword(string word)
 
     //removing one vector element  from another vector if match
 
-    vec-=vec_temp1; // operator overloading for subtract one vector from another
+    if(vec_temp1.size() > 0) {
 
-    // adding vector to another
+        vec-=vec_temp1; // operator overloading for subtract one vector from another
 
-    vec_temp1+=vec; // operator overloading for add one vector to another
+        // adding vector to another
+
+        vec_temp1+=vec; // operator overloading for add one vector to another
+
+    } else {
+        return vec;
+    }
 
     return vec_temp1;
+
 }
 //--------------------------------------------------------------//
 
@@ -789,14 +795,14 @@ void Search::convert_to_lower(string &input_string)
         **/
 
 
-vector<string> operator+=(vector<string> a,   vector<string> b)
+vector<string> operator+=(vector<string>& a,   vector<string>& b)
 {
     a.insert(a.end(), b.begin(), b.end());
     return a;
 }
 
 
-vector<string> operator-=(vector<string> vec,   vector<string> vec_temp1)
+vector<string> operator-=(vector<string>& vec,   vector<string>& vec_temp1)
 {
 
     for ( vector<string>::iterator it=vec_temp1.begin(); it!=vec_temp1.end(); ++it)

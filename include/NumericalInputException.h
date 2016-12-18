@@ -2,7 +2,7 @@
 #define NUMERICALINPUTEXCEPTION_H
 
 #include <iostream>
-#include "exception.h"
+#include <exception>
 
 class NumericalInputException: public std::exception
 {
