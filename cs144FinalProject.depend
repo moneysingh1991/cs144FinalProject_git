@@ -58,7 +58,7 @@
 	<algorithm>
 	<memory>
 
-1480271456 source:c:\users\anthony\cs144finalproject_git\src\search.cpp
+1481940189 source:c:\users\anthony\cs144finalproject_git\src\search.cpp
 	<fstream>
 	<iostream>
 	<cstdlib>
@@ -69,22 +69,20 @@
 	<algorithm>
 	<map>
 	<typeinfo>
+	"PageRank.h"
+	<iterator>
 
-1480271257 c:\users\anthony\cs144finalproject_git\include\search.h
+1481940189 c:\users\anthony\cs144finalproject_git\include\search.h
 	<vector>
 	<string>
 
-1479800318 source:c:\users\anthony\cs144finalproject_git\main.cpp
+1482022932 source:c:\users\anthony\cs144finalproject_git\main.cpp
 	<iostream>
 	<string>
-	<vector>
-	"Search.h"
-	<fstream>
 	"Result.h"
-	"string.h"
-	<algorithm>
+	<vector>
 
-1480274471 c:\users\anthony\cs144finalproject_git\include\result.h
+1482022932 c:\users\anthony\cs144finalproject_git\include\result.h
 	"Search.h"
 	"User.h"
 
@@ -93,7 +91,7 @@
 
 1480274511 c:\users\anthony\cs144finalproject_git\include\user.h
 
-1480276395 source:c:\users\anthony\cs144finalproject_git\src\result.cpp
+1482024184 source:c:\users\anthony\cs144finalproject_git\src\result.cpp
 	"Result.h"
 	<iostream>
 	<string>
@@ -104,6 +102,8 @@
 	"User.h"
 	<algorithm>
 	<memory>
+	"PageRank.h"
+	"NumEx.h"
 
 1480362049 source:c:\users\maninderpal\downloads\cs144finalproject_git-master-anthony-final\cs144finalproject_git-master\main.cpp
 	<iostream>
@@ -208,4 +208,24 @@
 	<map>
 	<fstream>
 	<algorithm>
+
+1481940189 source:c:\users\anthony\cs144finalproject_git\src\pagerank.cpp
+	"PageRank.h"
+	"Search.h"
+	<iostream>
+	<vector>
+	<map>
+	<fstream>
+	<algorithm>
+
+1481940189 c:\users\anthony\cs144finalproject_git\include\pagerank.h
+	<string>
+	"Search.h"
+	<vector>
+
+1482024240 source:c:\users\anthony\cs144finalproject_git\src\numex.cpp
+	"NumEx.h"
+
+1482023885 c:\users\anthony\cs144finalproject_git\include\numex.h
+	<exception>
 

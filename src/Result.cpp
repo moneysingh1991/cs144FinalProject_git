@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <memory>
 #include "PageRank.h"
+#include "NumEx.h"
 
 #define NUM_OF_RESULT_SHOWN 5   // For show number of result
 
@@ -106,7 +107,6 @@ void Result::Main_prog()
     helper2::Main_menu();
     while(exit != "exit")
     {
-
         cout << endl << "Enter selection : ";
         cin >> entry;
         while(!cin)
@@ -121,7 +121,19 @@ void Result::Main_prog()
         case 1:
             cout << endl << "Welcome to the SJSU Search Engine.";
             cout << endl << "Please enter your user id: ";
-            cin >> user_id;
+            try
+            {
+                cin >> user_id;
+                if(cin.fail()){
+                    cin.clear();
+                    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //skip bad input
+                    throw NumEx();
+                }
+            }
+            catch (exception &e)
+            {
+                cout << e.what();
+            }
             if(userExists(user_id))
             {
                 User currentUser(user_id);
