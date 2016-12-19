@@ -48,7 +48,6 @@ vector<string>  PageRank::get_result_from_page_rank(string keyword, char file_na
     ifstream file;
     string fileword, count_keyword, filename;
     map<string, int> map_item;
-    int count_map = 0;
     vector<string> result_vec;
 
     if(Search::check_file(file_name) == 0) {
@@ -88,7 +87,7 @@ vector<string>  PageRank::get_result_from_page_rank(string keyword, char file_na
 
     //sorting vector here most high rank file at top
 
-     sort(vec_pair.begin(), vec_pair.end(),  [](auto &left, auto &right)
+     sort(vec_pair.begin(), vec_pair.end(),  []( pair<string,int>  &left,  pair<string,int>  &right)
         {
             return left.second > right.second;
         });

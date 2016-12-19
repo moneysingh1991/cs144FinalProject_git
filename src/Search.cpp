@@ -442,7 +442,7 @@ vector<string> Search::produce_result_of_keyword(string word)
         /**
         Here used lambda function and this auto work with c++ 14 only
         **/
-        sort(vec_pair.begin(), vec_pair.end(),  [](auto &left, auto &right)
+        sort(vec_pair.begin(), vec_pair.end(),  [](pair<string,int> &left, pair<string,int> &right)
         {
             return left.second > right.second;
         });

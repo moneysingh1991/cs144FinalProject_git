@@ -13,7 +13,9 @@ int main()
 	Result *r;
 	if(Search *s = dynamic_cast<Result*>(r))
         r = new Result();
-	delete r;
+        if(r)
+            delete r;
+	//delete r;
 
 
 	return 0;
