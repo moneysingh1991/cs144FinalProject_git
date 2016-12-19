@@ -10,15 +10,19 @@ using namespace std;
 
 int main()
 {
-	Result *r;
-	if(Search *s = dynamic_cast<Result*>(r))
-        r = new Result();
-        if(r)
-            delete r;
-	//delete r;
+
+    Result *r;
+
+    if(Search *s = dynamic_cast<Result*>(new Result))
+    {
+		delete s;
+	}
+	else {
+		cout << endl << "dynamic cast fail" << endl;
+	}
 
 
-	return 0;
+    return 0;
 }
 
 
