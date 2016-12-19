@@ -11,8 +11,8 @@ using namespace std;
 int main()
 {
 	Result *r;
-
-	r = new Result();
+	if(Search *s = dynamic_cast<Result*>(r))
+        r = new Result();
 	delete r;
 
 

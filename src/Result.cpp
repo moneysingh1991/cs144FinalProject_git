@@ -10,8 +10,9 @@
 #include <memory>
 #include "PageRank.h"
 #include "NumEx.h"
-
 #define NUM_OF_RESULT_SHOWN 5   // For show number of result
+
+ char user_file_name[] = "users.txt";
 
 auto to_lower = [](char c)
 {
@@ -30,18 +31,28 @@ Result::~Result()
 
 bool Result::userExists(int a)
 {
+    Search s;
     string check = to_string(a);
+    char header[] = "";
+
+    if(s.check_file(user_file_name) == 0)  {
+        s.create_file(user_file_name, header);
+    }
     ifstream file("users.txt");
+
+//    file.open();
     string str;
     while(getline(file,str))
     {
         if(str == check)
         {
             cout << "User found!" << endl;
+             file.close();
             return true;
         }
     }
     cout << "User not found!" << endl;
+   file.close();
     return false;
 }
 
@@ -102,7 +113,7 @@ void Result::Main_prog()
     string exit = "";
     int entry = 0;
     fstream userfile;
-    userfile.open("users.txt",ios::app);
+   // userfile.open("users.txt",ios::app);
     int user_id = -1;
     helper2::Main_menu();
     while(exit != "exit")
@@ -147,9 +158,11 @@ void Result::Main_prog()
                     cin >> input_string;
                     if(input_string == "yes")
                     {
+                        userfile.open("users.txt",ios::app);
                         cout << "Create new user with an id of " << user_id << "." << endl;
                         userfile << "\n";
                         userfile << to_string(user_id);
+                        userfile.close();
                         User currentUser(user_id);
                         cout << "User search starting." << endl;
                         searching_start(currentUser);
@@ -230,10 +243,8 @@ void Result::searching_start(User currentUser)
 {
 
     string search_keyword;
-    int number_of_result_shown;
     vector<pair<string, string>> vec_pair_result;
     Search s;
-    Result *result_obj;
     int entry = 9999999;
     int i = 0;
     int index = 0;
@@ -241,7 +252,8 @@ void Result::searching_start(User currentUser)
     string result_file_name = "";
     int flag = 0;
     string results[NUM_OF_RESULT_SHOWN];
-    PageRank *p_rank;
+    PageRank p_rank;
+    char header[] = "";
 
     cout << endl << "Enter search keyword: ";
     cin >> search_keyword;
@@ -249,10 +261,27 @@ void Result::searching_start(User currentUser)
 
     transform(search_keyword.begin(), search_keyword.end(), search_keyword.begin(),  to_lower);
 
+    if(currentUser.id > 0) { // enter info in temp_user file to help produce result
+        vector<string> vec1;
+        vec1.push_back(to_string(currentUser.id) + " " + search_keyword);
+
+        if(s.check_file(helper1::convert_string_to_char_array("temp_user.txt")) == 0) {
+            s.create_file(helper1::convert_string_to_char_array("temp_user.txt"), header);
+        }
+
+        std::ofstream ofs ("temp_user.txt", std::ios::out | std::ios::trunc); // clear temp file data
+        ofs.close();
+        s.insert_data_in_file(helper1::convert_string_to_char_array("temp_user.txt"), vec1);
+    }
+
     if(produce_result_in_pair_vector(search_keyword).size() > 0)
     {
         vec_pair_result = produce_result_in_pair_vector(search_keyword);
         cout << endl << "Total " << vec_pair_result.size() << " found";
+
+        if(typeid(input_string).name() != typeid(string).name())
+            cout << "Invalid Input Detected. Unexpected output may be generated." << endl;
+
         while(input_string != "exit")
         {
             flag = 0;
@@ -262,7 +291,7 @@ void Result::searching_start(User currentUser)
                 if(i < vec_pair_result.size())
                 {
                     cout << "[" << i <<"]"<< vec_pair_result[i].second  << endl;
-                    results[count++] = "[" + to_string(i) + "]" + vec_pair_result[i].second;
+                    results[count++] =  vec_pair_result[i].first;
                 }
             }
             cout << endl << "----------------------Result---------------------" << endl;
@@ -293,18 +322,33 @@ void Result::searching_start(User currentUser)
                 }
                 if(input_string == "yes")
                 {
+                    cout << "Which result do you want to open: ";
+                    cin >> entry;
+
                     if(currentUser.id > 0)
                     {
 
+                        string temp_string = "created_files/"+  to_string(currentUser.id) + ".txt";
+
+                        if(s.check_file(helper1::convert_string_to_char_array(temp_string)) == 0) {
+                            s.create_file(helper1::convert_string_to_char_array(temp_string), header);
+                        }
+
                         cout << "Saving results for keyword \"" << search_keyword << "\" to file." << endl;
-                        string outFileName = to_string(currentUser.id) + search_keyword;
+                        string outFileName = to_string(currentUser.id);
                         ofstream outfile;
-                        outfile.open("created_files\\"+outFileName+".txt",ios::app);
-                        for(int x = 0; x < sizeof(results)/sizeof(*results); x++)
-                            outfile << results[x] + "\n";
+                      //  outfile.open("created_files\\"+outFileName+".txt",ios::app);
+
+                        vector<string> temp_vec;
+
+
+                        temp_vec.push_back(search_keyword+ " 1 " + vec_pair_result[entry].first);
+                      //  for(int x = 0; x < sizeof(results)/sizeof(*results); x++)
+                           // outfile << results[x] + "\n";
+                           s.insert_data_in_file(helper1::convert_string_to_char_array(temp_string), temp_vec);
+                      //  outfile.close();
                     }
-                    cout << "Which result do you want to open: ";
-                    cin >> entry;
+
 
                     while(entry < 0 || entry >= index)
                     {
@@ -318,7 +362,9 @@ void Result::searching_start(User currentUser)
         if(entry > -1 && entry < index)
         {
             vector<string> display_vec;
-            p_rank->set_page_rank(search_keyword,"1", vec_pair_result[entry].first);
+
+            p_rank.set_page_rank(search_keyword,"1", vec_pair_result[entry].first);
+
             result_file_name = vec_pair_result[entry].first;
 
             display_vec = s.produce_result_in_paragraph(result_file_name, vec_pair_result[entry].second);

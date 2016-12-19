@@ -11,7 +11,7 @@ class PageRank : public Search
 {
     public:
         PageRank();
-        vector<string> operator-( vector<string>& a);
+
         /**
             Created by: Maninderpal Singh
 
@@ -29,7 +29,7 @@ class PageRank : public Search
             This function will get top rank files according to given keyword
         **/
 
-        vector<string>  get_result_from_page_rank(string keyword);
+        vector<string>  get_result_from_page_rank(string keyword, char file[]);
 
         virtual ~PageRank();
 

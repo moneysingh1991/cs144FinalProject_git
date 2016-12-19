@@ -7,9 +7,14 @@ using namespace std;
 
  struct letter_only;
 
+template <class T>
 
-vector<string> operator-=(vector<string>& vec,  vector<string>& vec_temp1);
-vector<string> operator+=(vector<string>& vec,  vector<string>& vec_temp1);
+
+vector<T> operator-=(vector<T>& vec,   vector<T>& vec_temp1);
+
+template <class T1>
+
+vector<T1> operator+=(vector<T1>& a,   vector<T1>& b);
 
 
 namespace helper1 {

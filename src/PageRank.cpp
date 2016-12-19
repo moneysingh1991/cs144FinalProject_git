@@ -8,16 +8,16 @@
 
 using namespace std;
 
-char rank_file_path[] = "page_rank.txt";
+char rank_file_path_local[] = "page_rank.txt";
 
 PageRank::PageRank()
 {
-    //ctor
+
 }
 
 PageRank::~PageRank()
 {
-    //dtor
+
 }
 
   /**
@@ -34,15 +34,15 @@ void PageRank::set_page_rank(string keyword, string rank_no, string filepath) {
     data.push_back(keyword + " " + rank_no + " " + filepath);
 
 
-    if(Search::check_file(rank_file_path) == 0) {
+    if(Search::check_file(rank_file_path_local) == 0) {
         cout << endl << "file not exist please create page_rank.txt file";
     } else {
-        Search::insert_data_in_file(rank_file_path,data);
+        Search::insert_data_in_file(rank_file_path_local,data);
     }
 
 }
 
-vector<string>  PageRank::get_result_from_page_rank(string keyword) {
+vector<string>  PageRank::get_result_from_page_rank(string keyword, char file_name[] ) {
     vector<pair<string,int> > vec_pair;
     pair<string, int> pair_item;
     ifstream file;
@@ -51,10 +51,10 @@ vector<string>  PageRank::get_result_from_page_rank(string keyword) {
     int count_map = 0;
     vector<string> result_vec;
 
-    if(Search::check_file(rank_file_path) == 0) {
-        cout << endl << "something wrong getting result from page_rank.txt file";
+    if(Search::check_file(file_name) == 0) {
+       // cout << endl << "something wrong getting result from "  << file_name <<" file";
     } else {
-        file.open(rank_file_path);
+        file.open(file_name);
         while( file >> fileword && file >> count_keyword && file >> filename) // for each fileword word read from the file
         {
 
@@ -70,9 +70,9 @@ vector<string>  PageRank::get_result_from_page_rank(string keyword) {
                 }
             }
         }
-        file.close(); // close file
-    }
 
+
+        file.close(); // close file
 
     /**
         adding  map value into vector
@@ -99,13 +99,10 @@ vector<string>  PageRank::get_result_from_page_rank(string keyword) {
             result_vec.push_back(it->first);
         }
 
+    }
+
+
     return result_vec;
 }
 
-vector<string> operator-( vector<string>& vec) {
-    vector<string> vec2;
 
-    vec.erase(std::remove(vec.begin(), vec.end(), ""), vec.end());
-
-    return vec2;
-}

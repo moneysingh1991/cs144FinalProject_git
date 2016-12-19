@@ -23,6 +23,8 @@ char table1_header[] = "keyword count filename";
 char table1_status_file[] = "created_files/table1_status.txt";   // this file include file status
 char table1_status_header[] = "is_searched filename";
 char tempfile[] = "tempfile.txt";
+char rank_file_path[] = "page_rank.txt";
+char temp_user_path[] = "temp_user.txt";
 
 
 /**
@@ -33,6 +35,9 @@ char tempfile[] = "tempfile.txt";
 Search::Search()
 {
     keyword_pre_process(); // this function will count all possible keyword from all file
+
+    std::ofstream ofs ("temp_user.txt", std::ios::out | std::ios::trunc); // clear temp file data
+        ofs.close();
 }
 
 //---------------------------------------------------------------------------
@@ -464,9 +469,33 @@ vector<string> Search::produce_result_of_keyword(string word)
     }
     file.close();
 
-    vec_temp1 =  page_rank->get_result_from_page_rank(word);
+    // grabbing data from temp_user file
+
+    file.open(temp_user_path);
+    if ( file.peek() == std::ifstream::traits_type::eof() ) // Empty File check if file is empty
+    {
+            //cout << endl << "temp_user.txt is empty" << endl;
+
+            //file empty then nothing to check because it is not search by userid
+        } else {
+            string file_id;
+            string key_wrd;
+
+            file >> file_id && file >> key_wrd;
+            vec_temp2 = page_rank->get_result_from_page_rank(key_wrd, helper1::convert_string_to_char_array("created_files/"+file_id+ ".txt")); // getting data from particular user id file
+
+        }
+
+    file.close();
+
+    vec_temp1 =  page_rank->get_result_from_page_rank(word, rank_file_path);
+
 
     //removing one vector element  from another vector if match
+
+    if(vec_temp1.size() == 0 && vec_temp2.size() == 0) {
+        return vec;
+    }
 
     if(vec_temp1.size() > 0) {
 
@@ -476,11 +505,32 @@ vector<string> Search::produce_result_of_keyword(string word)
 
         vec_temp1+=vec; // operator overloading for add one vector to another
 
-    } else {
-        return vec;
+        if(vec_temp2.size() > 0) {
+
+            vec_temp1-=vec_temp2; // operator overloading for subtract one vector from another
+
+        // adding vector to another
+
+            vec_temp2+=vec_temp1; // operator overloading for add one vector to another
+
+            return vec_temp2;
+        } else {
+            return vec_temp1;
+        }
     }
 
-    return vec_temp1;
+    if(vec_temp2.size() > 0) {
+
+           vec-=vec_temp2; // operator overloading for subtract one vector from another
+
+        // adding vector to another
+
+            vec_temp2+=vec; // operator overloading for add one vector to another
+
+            return vec_temp2;
+        }
+
+     return vec;
 
 }
 //--------------------------------------------------------------//
@@ -795,14 +845,17 @@ void Search::convert_to_lower(string &input_string)
         **/
 
 
-vector<string> operator+=(vector<string>& a,   vector<string>& b)
+template <class T1>
+
+vector<T1> operator+=(vector<T1>& a,   vector<T1>& b)
 {
     a.insert(a.end(), b.begin(), b.end());
     return a;
 }
 
+template <class T>
 
-vector<string> operator-=(vector<string>& vec,   vector<string>& vec_temp1)
+vector<T> operator-=(vector<T>& vec,   vector<T>& vec_temp1)
 {
 
     for ( vector<string>::iterator it=vec_temp1.begin(); it!=vec_temp1.end(); ++it)

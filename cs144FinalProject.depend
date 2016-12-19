@@ -229,7 +229,7 @@
 1482023885 c:\users\anthony\cs144finalproject_git\include\numex.h
 	<exception>
 
-1481837022 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\main.cpp
+1482113804 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\main.cpp
 	<iostream>
 	<string>
 	"Result.h"
@@ -239,13 +239,13 @@
 	"Search.h"
 	"User.h"
 
-1482102844 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\search.h
+1482123106 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\search.h
 	<vector>
 	<string>
 
 1480362050 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\user.h
 
-1481624452 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\pagerank.cpp
+1482121777 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\pagerank.cpp
 	"PageRank.h"
 	"Search.h"
 	<iostream>
@@ -254,12 +254,12 @@
 	<fstream>
 	<algorithm>
 
-1481538208 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\pagerank.h
+1482114381 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\pagerank.h
 	<string>
 	"Search.h"
 	<vector>
 
-1482030848 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\result.cpp
+1482122432 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\result.cpp
 	"Result.h"
 	<iostream>
 	<string>
@@ -276,7 +276,7 @@
 1482027319 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\numex.h
 	<exception>
 
-1482102963 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\search.cpp
+1482121164 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\search.cpp
 	<fstream>
 	<iostream>
 	<cstdlib>
@@ -293,29 +293,29 @@
 1480362050 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\user.cpp
 	"User.h"
 
-1482027319 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\numericalexceptionindex.cpp
+1482105151 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\numericalexceptionindex.cpp
 	"NumericalExceptionIndex.h"
 
-1482027319 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\numericalexceptionindex.h
+1482105151 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\numericalexceptionindex.h
 	<exception>
 
-1482027319 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\numericalinputexception.cpp
+1482105151 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\numericalinputexception.cpp
 	"NumericalInputException.h"
 	<exception>
 
-1482029746 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\numericalinputexception.h
+1482105151 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\numericalinputexception.h
 	<iostream>
 	<exception>
 
 1482027319 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\numex.cpp
 	"NumEx.h"
 
-1482029730 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\customexception.cpp
+1482105151 source:c:\users\maninderpal\desktop\code_block\cs144finalproject_git\src\customexception.cpp
 	"CustomException.h"
 	<iostream>
 	<exception>
 
-1482029593 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\customexception.h
+1482105151 c:\users\maninderpal\desktop\code_block\cs144finalproject_git\include\customexception.h
 	<iostream>
 	<exception>
 

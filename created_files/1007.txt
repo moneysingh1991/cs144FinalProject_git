@@ -1,0 +1,7 @@
+
+process 1 All_Files\AS1872To2000#220_13_118709.txt
+process 1 All_Files\AS1872To2000#220_13_118709.txt
+get 1 All_Files\AS1872To2000#220_4_197058.txt
+process 1 All_Files\AS1872To2000#220_6_13266.txt
+well 1 All_Files\AS1872To2000#220_8_36285.txt
+process 1 All_Files\AS1872To2000#220_5_47435.txt

@@ -1,5 +1,0 @@
-[5] time constraints 2.3.2. Input and Output Representations Figure 2 shows how we represented the symptom (input) as a 555-element 
-[6] time being. The Figure shows the person tokens positioned in a regimented way, but in the actual simulation they 
-[7] time depends on values for signal-travel distances, signal-travel speeds, and combinatorial-logic delays (e.g. within CM registers) that are based 
-[8] time for register's response to a signal: lOms overhead of random register selection: 5ms The values of the last 
-[9] time of about 2.5 seconds seems small enough to be psychologically realistic. It is hard to discern timings for 

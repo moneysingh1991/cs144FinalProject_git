@@ -31,11 +31,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/CustomException.h" />
+		<Unit filename="include/NumEx.h" />
+		<Unit filename="include/NumericalExceptionIndex.h" />
+		<Unit filename="include/NumericalInputException.h" />
 		<Unit filename="include/PageRank.h" />
 		<Unit filename="include/Result.h" />
 		<Unit filename="include/Search.h" />
 		<Unit filename="include/User.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/CustomException.cpp" />
+		<Unit filename="src/NumEx.cpp" />
+		<Unit filename="src/NumericalExceptionIndex.cpp" />
+		<Unit filename="src/NumericalInputException.cpp" />
 		<Unit filename="src/PageRank.cpp" />
 		<Unit filename="src/Result.cpp" />
 		<Unit filename="src/Search.cpp" />
